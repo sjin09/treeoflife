@@ -166,8 +166,12 @@ def get_sample_tree(taxonomic_classification_path: Path, samples: Set[str]) -> e
     # Import and iterate through the DToL samplesheet
     df = pd.read_csv(taxonomic_classification_path)
 
-    # Remove samples with incomplete taxonomic classification
-    df_subset = df[~(df.iloc[:, 3:10].eq(".").any(axis=1))]
+    # Remove samples with incomplete taxonomic classification.
+    # Check exactly the ranks used to build the tree -- not a positional column
+    # slice, which is fragile to column reordering and previously also caught the
+    # non-taxonomic "Common name" column, silently dropping ~25% of samples
+    # (mostly plants, which have no common name) from the tree.
+    df_subset = df[~(df[SAMPLE_LEVEL_TAXONOMIC_RANKS].eq(".").any(axis=1))]
     for (_idx, row) in df_subset.iterrows():
         sample = row["Sample"]
         # Don't add sample to the tree if the sample is absent from signature exposure spreadsheet
@@ -199,15 +203,15 @@ def get_species_tree(taxonomic_classification_path: Path, samples: Set[str]) -> 
     # Import and iterate through the DToL samplesheet
     df = pd.read_csv(taxonomic_classification_path)
 
-    # Remove samples with incomplete taxonomic classification
-    df_subset = df[~(df.iloc[:, 3:10].eq(".").any(axis=1))]
+    # Remove samples with incomplete taxonomic classification.
+    # As in get_sample_tree, check exactly the ranks used to build the tree.
+    df_subset = df[~(df[SAMPLE_LEVEL_TAXONOMIC_RANKS].eq(".").any(axis=1))]
     for (_idx, row) in df_subset.iterrows():
         sample = row["Sample"]
         # Don't add sample to the tree if the sample is absent from signature exposure spreadsheet
         if sample not in samples:
             continue
         current_node = root
-        sample_taxonomic_ranks = list(row[SPECIES_LEVEL_TAXONOMIC_RANKS])
         for taxonomic_rank in SAMPLE_LEVEL_TAXONOMIC_RANKS:
             sample_taxonomic_rank = row[taxonomic_rank]
             current_node = get_child(current_node, sample_taxonomic_rank)
