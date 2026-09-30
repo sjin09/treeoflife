@@ -128,7 +128,7 @@ def load_sample_sbs96_counts(input_path: Path) -> Dict[str, int]:
             continue
         fields = line.rstrip().split()
         sbs96 = fields[2]
-        expected_count = float(fields[4])
+        expected_count = float(fields[3])
         count_per_sbs96[sbs96] = expected_count
     return count_per_sbs96
 
