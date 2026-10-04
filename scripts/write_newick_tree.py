@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 import sys
 
-from ete3 import Tree, TreeStyle, NodeStyle, TextFace
+from ete3 import Tree
 import pandas as pd
 
 TAXONOMIC_RANKS = ["Domain", "Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
@@ -41,7 +41,7 @@ def get_sample_count_per_reference_sample(df: pd.DataFrame) -> Dict[str, int]:
     # Count number of samples for each reference sample
     sample_count_per_reference_sample = defaultdict(lambda: 0)
     for (_idx, row) in df.iterrows():
-        ref_sample = row["ref_sample"]
+        ref_sample = row["Reference sample"]
         sample_count_per_reference_sample[ref_sample] += 1
     return sample_count_per_reference_sample 
 
@@ -54,6 +54,10 @@ def get_sample_count_per_species(df: pd.DataFrame) -> Dict[str, int]:
         sample_count_per_species[species_name] += 1
     return sample_count_per_species
 
+# def quote_newick_label(s: str) -> str:
+#     # Newick escapes single quotes by doubling them
+#     # s = s.replace("'", "''")
+#     return f"'{s}'"
 
 def write_newick_tree(input_path: Path, output_path: Path) -> None:
     def get_child(parent_clade, child_name: str):
@@ -84,7 +88,7 @@ def write_newick_tree(input_path: Path, output_path: Path) -> None:
         current_node = root
         sample = row["Sample"]
         species = row["Species"]
-        ref_sample = row["ref_sample"]
+        ref_sample = row["Reference sample"]
         sample_taxonomic_ranks = list(row[TAXONOMIC_RANKS])
         for taxonomic_rank, sample_taxonomic_rank in zip(TAXONOMIC_RANKS, sample_taxonomic_ranks):
             if taxonomic_rank == "Species":
@@ -105,11 +109,13 @@ def write_newick_tree(input_path: Path, output_path: Path) -> None:
                 current_node = get_child(current_node, sample_taxonomic_rank)
 
     # Export tree to newick format
-    root.write(format=1, outfile=str(output_path))
+    root.write(format=2, outfile=str(output_path))
     return root
 
 
 def plot_circular_tree(tree: Tree, output_path: Path, leaf_fontsize: int = 7, canvas_px: int = 2800) :
+    from ete3 import TreeStyle, NodeStyle, TextFace  # needs PyQt5; imported here so the newick is written without it
+
     # Apply default thin branches everywhere first
     base_ns = NodeStyle()  # Create a default node style object
     base_ns["fgcolor"] = "#333333"  # Set the default branch/line color to dark gray
@@ -138,11 +144,16 @@ def plot_circular_tree(tree: Tree, output_path: Path, leaf_fontsize: int = 7, ca
     
     tree.render(output_path, w=canvas_px, units="px", tree_style=ts)
 
-
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i", "--input", required=True, help="Input CSV")
+    parser.add_argument("-o", "--output", required=True, help="Output Newick")
     options = parse_args()
     tree = write_newick_tree(options.input, options.output)
-    plot_circular_tree(tree, "{}.pdf".format(options.output.stem))
+    try:
+        plot_circular_tree(tree, "{}.pdf".format(options.output.stem))
+    except ImportError as e:
+        print(f"Skipped circular tree PDF: {e}", file=sys.stderr)
     return 0
 
 
