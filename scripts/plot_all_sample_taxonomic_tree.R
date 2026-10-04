@@ -40,9 +40,9 @@ tr$tip.label = get_expr_labels(org_labels)
 # -------By kingdom---------
 # Palette
 pal <- c(
-  Fungi = "#8C564B",
-  Metazoa = "#001F54",
-  Viridiplantae = "#004300"
+  Fungi = "#925D37",
+  Metazoa = "#ACD9D7",
+  Viridiplantae = "#408246"
 )
 
 
@@ -71,8 +71,9 @@ hilight_df <- lapply(names(king_groups), function(k) {
 p <- ggtree(tr, layout = "circular",size=0.25)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = Kingdom),
-                      alpha = 0.5) +
+                      alpha = 1) +
   scale_fill_manual(values = pal, name = "Kingdom", guide = guide_legend(override.aes = list(alpha = 1))) +
+  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
   theme(legend.position = "right",
@@ -80,15 +81,15 @@ p <- p + geom_hilight(data = hilight_df,
 
 p
 
-ggsave("~/Documents/Postdoc/ToL/figs/SF1.pdf", plot = p,
-       width = 10, height = 10, units = "in") 
+# ggsave("~/Documents/Postdoc/ToL/figs/SF1.pdf", plot = p,
+#        width = 10, height = 10, units = "in") 
 
 
 
 # ----------------By Phylum-------------------
 pal <- c(
-  Viridiplantae = "#004300",
-  Fungi = "#8C564B",
+  Viridiplantae = "#408246",
+  Fungi = "#925D37",
   Arthropoda = "#B80080",
   Chordata = "#30A2DA",
   Mollusca = "#000097",
@@ -138,8 +139,9 @@ hilight_df <- lapply(names(grp_list), function(k) {
 p <- ggtree(tr, layout = "circular",size=0.25)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = ColorGroup),
-                      alpha = 0.5) +
+                      alpha = 1) +
   scale_fill_manual(values = pal, name = "Phylum", guide = guide_legend(override.aes = list(alpha = 1))) +
+  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
   theme(legend.position = "right",
@@ -147,30 +149,33 @@ p <- p + geom_hilight(data = hilight_df,
 
 p
 
-ggsave("~/Documents/Postdoc/ToL/figs/SF2.pdf", plot = p,
-       width = 10, height = 10, units = "in") 
+# ggsave("~/Documents/Postdoc/ToL/figs/SF2.pdf", plot = p,
+       # width = 10, height = 10, units = "in") 
 
 
 # ----------------By Class-------------------
+# Exact legend swatch colours and order from main_yw.docx, Fig. 1b.
+# Metazoa is a reference key only; unlisted animal clades remain unshaded.
 pal <- c(
-  Viridiplantae = "#004300",  # dark forest green
-  Fungi        = "#8C564B",   # earthy brown
-  Lepidoptera  = "#B80080",   # deep fuchsia
-  Diptera      = "#FFDC00",   # bright yellow
-  Hymenoptera  = "#895DFF",   # vivid violet
-  Coleoptera   = "#0100F8",   # electric blue
-  Hemiptera    = "#E377C2",   # soft pink-magenta
-  Plecoptera   = "#00E83B",   # neon green
-  Trichoptera  = "#9400F5",   # saturated purple
-  Arachnida    = "#4D6EFF",   # cobalt blue
-  Actinopteri  = "#D796AB",   # dusty rose
-  Mammalia     = "#91FF00",   # lime green
-  Aves         = "#520066",   # deep violet
-  Clitellata   = "#84206F",   # dark magenta
-  Polychaeta   = "#17BECF",   # turquoise cyan
-  Bivalvia     = "#FF8002",   # vivid orange
-  Gastropoda   = "#000097",   # navy ink blue
-  Gymnolaemata = "#F500C6"    # hot magenta
+  Viridiplantae = "#408246",
+  Fungi        = "#925D37",
+  Lepidoptera  = "#9BC4A7",
+  Diptera      = "#607876",
+  Hymenoptera  = "#B7C27C",
+  Coleoptera   = "#A3843F",
+  Plecoptera   = "#F18438",
+  Trichoptera  = "#D13F16",
+  Hemiptera    = "#FCDA18",
+  Arachnida    = "#B2CC10",
+  Actinopteri  = "#32529A",
+  Mammalia     = "#5FA8DD",
+  Aves         = "#3D718B",
+  Gastropoda   = "#C4C6E5",
+  Bivalvia     = "#BEADD4",
+  Polychaeta   = "#826EB0",
+  Clitellata   = "#402771",
+  Gymnolaemata = "#E6AED0",
+  Metazoa     = "#ACD9D7"
 )
 
 anno <- tibble(label = org_labels) %>%
@@ -201,6 +206,18 @@ anno <- anno %>%
   ) 
 
 
+# Count plotted tips before removing unshaded groups. Metazoa includes all animals.
+legend_counts <- vapply(names(pal), function(group) {
+  if (group == "Metazoa") {
+    sum(anno$Kingdom == "Metazoa", na.rm = TRUE)
+  } else {
+    sum(anno$ColorGroup == group, na.rm = TRUE)
+  }
+}, integer(1))
+legend_labels <- setNames(
+  sprintf("%s (n = %d)", names(pal), legend_counts), names(pal)
+)
+
 anno <- anno %>% mutate(label_expr = get_expr_labels(org_labels))%>% 
   filter(!is.na(ColorGroup))       # << remove them
 
@@ -223,15 +240,21 @@ hilight_df$ColorGroup =factor(hilight_df$ColorGroup, levels = names(pal))  # enf
 p <- ggtree(tr, layout = "circular",size=0.25)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = ColorGroup),
-                      alpha = 0.5) +
-  scale_fill_manual(values = pal, name = "Class and Order", guide = guide_legend(override.aes = list(alpha = 1))) +
+                      alpha = 1, show.legend = TRUE) +
+  scale_fill_manual(values = pal, limits = names(pal), drop = FALSE,
+                    name = NULL, labels = legend_labels,
+                    guide = guide_legend(ncol = 5, byrow = TRUE,
+                                         override.aes = list(alpha = 1))) +
+  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
-  theme(legend.position = "right",
+  theme(legend.position = "bottom",
+        legend.text = element_text(size = 8),
+        legend.key.size = grid::unit(0.4, "cm"),
         text = element_text(family = "Helvetica"))
 
 p
 
-ggsave("~/Documents/Postdoc/ToL/figs/SF3.pdf", plot = p,
+ggsave("~/Documents/Postdoc/ToL/figs/Fig1b.pdf", plot = p,
        width = 10, height = 10, units = "in") 
  
