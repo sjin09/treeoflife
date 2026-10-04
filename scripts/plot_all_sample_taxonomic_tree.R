@@ -6,10 +6,9 @@ library(stringr)
 library(dplyr)
 
 
-setwd("~/Documents/Postdoc/ToL/figs")
-metadata <- read.csv("../data/dtol_all_samples.taxonomic_classification.csv")
+metadata <- read.csv("../data/dtol/dtol_all_samples.taxonomic_classification.csv")
 
-txt  <- readLines("../data/ToL_new.newick")
+txt  <- readLines("../data/dtol/dtol_all_samples.taxonomic_tree.nwk")
 txt <- gsub('_', '^', txt, fixed = TRUE)
 txt2 <- gsub(" +", "_", txt)   # turn spaces inside labels into underscores
 tr   <- read.tree(text = txt2)
@@ -81,7 +80,7 @@ p <- p + geom_hilight(data = hilight_df,
 
 p
 
-ggsave("../figs/SF1.pdf", plot = p,
+ggsave("~/Documents/Postdoc/ToL/figs/SF1.pdf", plot = p,
        width = 10, height = 10, units = "in") 
 
 
@@ -148,7 +147,7 @@ p <- p + geom_hilight(data = hilight_df,
 
 p
 
-ggsave("../figs/SF2.pdf", plot = p,
+ggsave("~/Documents/Postdoc/ToL/figs/SF2.pdf", plot = p,
        width = 10, height = 10, units = "in") 
 
 
@@ -233,6 +232,6 @@ p <- p + geom_hilight(data = hilight_df,
 
 p
 
-ggsave("../figs/SF3.pdf", plot = p,
+ggsave("~/Documents/Postdoc/ToL/figs/SF3.pdf", plot = p,
        width = 10, height = 10, units = "in") 
  
