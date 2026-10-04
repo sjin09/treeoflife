@@ -16,58 +16,59 @@ cbPsePuru1,cbPsePuru1,Neat feathermoss,Eukaryota,Viridiplantae,Streptophyta,Bryo
 cbRhyLore1,cbRhyLore1,Little shaggy-moss,Eukaryota,Viridiplantae,Streptophyta,Bryopsida,Hypnales,Hylocomiaceae,Rhytidiadelphus,Rhytidiadelphus loreus
 cbThuTama2,cbThuTama2,Common tamarisk-moss,Eukaryota,Viridiplantae,Streptophyta,Bryopsida,Hypnales,Thuidiaceae,Thuidium,Thuidium tamariscinum
 cmLunCruc20,cmLunCruc20,Crescent-cup liverwort,Eukaryota,Viridiplantae,Streptophyta,Marchantiopsida,Lunulariales,Lunulariaceae,Lunularia,Lunularia cruciata
-daAjuCham1,daAjuCham1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Ajuga,Ajuga chamaepitys
-daArcMinu1,daArcMinu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Arctium,Arctium minus
-daBalNigr1,daBalNigr1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Ballota,Ballota nigra
+daAjuCham1,daAjuCham1,Yellow bugle,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Ajuga,Ajuga chamaepitys
+daArcMinu1,daArcMinu1,Lesser burdock,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Arctium,Arctium minus
+daBalNigr1,daBalNigr1,Black horehound,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Ballota,Ballota nigra
 daCalOffi1,daCalOffi1,Common marigold,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Calendula,Calendula officinalis
 daCruLaev1,daCruLaev1,Crosswort,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Gentianales,Rubiaceae,Cruciata,Cruciata laevipes
 daEupConf1,daEupConf1,Eyebright,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Orobanchaceae,Euphrasia,Euphrasia confusa
 daGnaUlig1,daGnaUlig1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Gnaphalium,Gnaphalium uliginosum
 daLigVulg1,daLigVulg1,Common privet,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Oleaceae,Ligustrum,Ligustrum vulgare
-daLinVulg1,daLinVulg1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Plantaginaceae,Linaria,Linaria vulgaris
+daLinVulg1,daLinVulg1,Common toadflax,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Plantaginaceae,Linaria,Linaria vulgaris
 daLogMini1,daLogMini1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Logfia,Logfia minima
-daMisOron1,daMisOron1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Plantaginaceae,Misopates,Misopates orontium
-daPseLute1,daPseLute1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Pseudognaphalium,Pseudognaphalium luteoalbum
-daPulDyse1,daPulDyse1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Pulicaria,Pulicaria dysenterica
-daScuGale1,daScuGale1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Scutellaria,Scutellaria galericulata
-daScuMino1,daScuMino1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Scutellaria,Scutellaria minor
+daMisOron1,daMisOron1,Weasel's snout,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Plantaginaceae,Misopates,Misopates orontium
+daPseLute1,daPseLute1,Jersey cudweed,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Pseudognaphalium,Pseudognaphalium luteoalbum
+daPulDyse1,daPulDyse1,Common fleabane,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Pulicaria,Pulicaria dysenterica
+daScuGale1,daScuGale1,Marsh skullcap,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Scutellaria,Scutellaria galericulata
+daScuMino1,daScuMino1,Lesser Skullcap,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Lamiaceae,Scutellaria,Scutellaria minor
 daSheArve1,daSheArve1,Field madder,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Gentianales,Rubiaceae,Sherardia,Sherardia arvensis
-daSolDulc1,daSolDulc1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Solanum,Solanum dulcamara
-daVerOffi1,daVerOffi1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Verbenaceae,Verbena,Verbena officinalis
+daSolDulc1,daSolDulc1,Bittersweet,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Solanum,Solanum dulcamara
+daVerOffi1,daVerOffi1,Common vervain,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Verbenaceae,Verbena,Verbena officinalis
 dcAgrGith1,dcAgrGith1,Corn cockle,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Agrostemma,Agrostemma githago
 dcCheAlbu1,dcCheAlbu1,White goosefoot,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Chenopodium,Chenopodium album
 dcFalConv1,dcFalConv1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Polygonaceae,Fallopia,Fallopia convolvulus
 dcPerMacu1,dcPerMacu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Polygonaceae,Persicaria,Persicaria maculosa
-dcPolAvic1,dcPolAvic1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Polygonaceae,Polygonum,Polygonum aviculare
-dcSalRamo1,dcSalRamo1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Salicornia,Salicornia ramosissima
-dcSpeBocc1,dcSpeBocc1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Spergularia,Spergularia bocconei
-dcSpeMari1,dcSpeMari1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Spergularia,Spergularia marina
-ddAraThal4,ddAraThal4,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Arabidopsis,Arabidopsis thaliana
+dcPolAvic1,dcPolAvic1,Common knotgrass,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Polygonaceae,Polygonum,Polygonum aviculare
+dcSalRamo1,dcSalRamo1,Purple glasswort,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Salicornia,Salicornia ramosissima
+dcSpeBocc1,dcSpeBocc1,Greek sea-spurrey,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Spergularia,Spergularia bocconei
+dcSpeMari1,dcSpeMari1,Lesser Sea-spurrey,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Spergularia,Spergularia marina
+ddAraThal4,ddAraThal4,Thale cress,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Arabidopsis,Arabidopsis thaliana
 ddBarVulg1,ddBarVulg1,Winter cress,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Barbarea,Barbarea vulgaris
 ddEupLath1,ddEupLath1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Euphorbiaceae,Euphorbia,Euphorbia lathyris
-ddEupPepu3,ddEupPepu3,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Euphorbiaceae,Euphorbia,Euphorbia peplus
+ddEupPepu3,ddEupPepu3,Petty spurge,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Euphorbiaceae,Euphorbia,Euphorbia peplus
 ddHibTrid2,ddHibTrid2,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malvales,Malvaceae,Hibiscus,Hibiscus tridactylites
 ddLepDidy1,ddLepDidy1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Lepidium,Lepidium didymum
-ddPopNigr1,ddPopNigr1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Salicaceae,Populus,Populus nigra
-ddPriVeri1,ddPriVeri1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Ericales,Primulaceae,Primula,Primula veris
-ddSalCapr1,ddSalCapr1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Salicaceae,Salix,Salix caprea
-ddSamVale1,ddSamVale1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Ericales,Primulaceae,Samolus,Samolus valerandi
+ddPopNigr1,ddPopNigr1,Black poplar,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Salicaceae,Populus,Populus nigra
+ddPriVeri1,ddPriVeri1,Cowslip,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Ericales,Primulaceae,Primula,Primula veris
+ddSalCapr1,ddSalCapr1,Goat willow,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Salicaceae,Salix,Salix caprea
+ddSamVale1,ddSamVale1,Brookweed,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Ericales,Primulaceae,Samolus,Samolus valerandi
 ddVioOdor1,ddVioOdor1,Sweet violet,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Violaceae,Viola,Viola odorata
-dhAlnGlut1,dhAlnGlut1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fagales,Betulaceae,Alnus,Alnus glutinosa
+dhAlnGlut1,dhAlnGlut1,Common alder,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fagales,Betulaceae,Alnus,Alnus glutinosa
 dhMyrGale1,dhMyrGale1,Bog myrtle,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fagales,Myricaceae,Myrica,Myrica gale
 dhQueCerr2,dhQueCerr2,Turkey oak,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fagales,Fagaceae,Quercus,Quercus cerris
 dmBerVulg1,dmBerVulg1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Ranunculales,Berberidaceae,Berberis,Berberis vulgaris
 drAceCamp1,drAceCamp1,Field maple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Sapindales,Sapindaceae,Acer,Acer campestre
 drAilAlti1,drAilAlti1,Tree of heaven,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Sapindales,Simaroubaceae,Ailanthus,Ailanthus altissima
 drAstGlyc1,drAstGlyc1,Liquorice milkvetch,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Astragalus,Astragalus glycyphyllos
-drBuxSemp1,drBuxSemp1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Buxales,Buxaceae,Buxus,Buxus sempervirens
-drChaAngu1,drChaAngu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Myrtales,Onagraceae,Chamaenerion,Chamaenerion angustifolium
+drBuxSemp1,drBuxSemp1,Common box,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Buxales,Buxaceae,Buxus,Buxus sempervirens
+drChaAngu1,drChaAngu1,Rosebay willowherb,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Myrtales,Onagraceae,Chamaenerion,Chamaenerion angustifolium
 drCraLaev2,drCraLaev2,Midland hawthorn,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Crataegus,Crataegus laevigata
 drEroMari8,drEroMari8,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Geraniales,Geraniaceae,Erodium,Erodium maritimum
 drEuoEuro1,drEuoEuro1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Celastrales,Celastraceae,Euonymus,Euonymus europaeus
 drFilUlma1,drFilUlma1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Filipendula,Filipendula ulmaria
-drGeuUrba1,drGeuUrba1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Geum,Geum urbanum
-drHedHeli1,drHedHeli1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Apiales,Araliaceae,Hedera,Hedera helix
+drGeuUrba1,drGeuUrba1,Wood avens,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Geum,Geum urbanum
+drHedHeli1,drHedHeli1,Common ivy,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Apiales,Araliaceae,Hedera,Hedera helix
+drHedHeli1,drHedHeli4,Common ivy,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Apiales,Araliaceae,Hedera,Hedera helix
 drHumLupu1,drHumLupu1,European hop,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Cannabaceae,Humulus,Humulus lupulus
 drIleAqui2,drIleAqui2,English holly,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Aquifoliales,Aquifoliaceae,Ilex,Ilex aquifolium
 drMalDome5,drMalDome5,Apple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus domestica
@@ -75,25 +76,25 @@ drMalDome10,drMalDome10,Apple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida
 drMalDome11,drMalDome11,Apple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus domestica
 drMalDome58,drMalDome58,Apple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus domestica
 drMalRobu1,drMalRobu1,Robusta-5,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus x robusta
-drMalSylv7,drMalSylv7,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus sylvestris
-drMedArab1,drMedArab1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Medicago,Medicago arabica
-drMedLupu1,drMedLupu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Medicago,Medicago lupulina
-drParJuda1,drParJuda1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Urticaceae,Parietaria,Parietaria judaica
-drPotAnse1,drPotAnse1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Potentilla,Potentilla anserina
-drPotSter1,drPotSter1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Potentilla,Potentilla sterilis
+drMalSylv7,drMalSylv7,Crab apple,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Malus,Malus sylvestris
+drMedArab1,drMedArab1,Spotted medick,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Medicago,Medicago arabica
+drMedLupu1,drMedLupu1,Black medic,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Medicago,Medicago lupulina
+drParJuda1,drParJuda1,Pellitory-of-the-wall,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Urticaceae,Parietaria,Parietaria judaica
+drPotAnse1,drPotAnse1,Silverweed cinquefoil,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Potentilla,Potentilla anserina
+drPotSter1,drPotSter1,Barren strawberry,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Potentilla,Potentilla sterilis
 drPruPadu1,drPruPadu1,Bird cherry,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Prunus,Prunus padus
 drPyrComm1,drPyrComm1,Pear,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Rosaceae,Pyrus,Pyrus communis
-drTriDubi3,drTriDubi3,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium dubium
-drTriFrag1,drTriFrag1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium fragiferum
-drTriSubt1,drTriSubt1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium subterraneum
+drTriDubi3,drTriDubi3,Lesser trefoil or Irish shamrock,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium dubium
+drTriFrag1,drTriFrag1,Strawberry clover,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium fragiferum
+drTriSubt1,drTriSubt1,Subterranean clover,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium,Trifolium subterraneum
 drUmbRupe1,drUmbRupe1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Saxifragales,Crassulaceae,Umbilicus,Umbilicus rupestris
 drUrtDioi1,drUrtDioi1,Great nettle,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Urticaceae,Urtica,Urtica dioica
-drUrtUren1,drUrtUren1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Urticaceae,Urtica,Urtica urens
+drUrtUren1,drUrtUren1,Small nettle,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Rosales,Urticaceae,Urtica,Urtica urens
 eaLuiSars1,eaLuiSars1,(a starfish),Eukaryota,Metazoa,Echinodermata,Asteroidea,Paxillosida,Luidiidae,Luidia,Luidia sarsii
 eaMarGlac1,eaMarGlac1,Spiny starfish,Eukaryota,Metazoa,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Marthasterias,Marthasterias glacialis
 ecAntBifi1,ecAntBifi1,Rosy feather star,Eukaryota,Metazoa,Echinodermata,Crinoidea,Comatulida,Antedonidae,Antedon,Antedon bifida
 fAbrBra2,fAbrBra2,Common bream,Eukaryota,Metazoa,Chordata,Actinopteri,Cypriniformes,Cyprinidae,Abramis,Abramis brama
-fAciRut3,fAciRut3,sterlet,Eukaryota,Metazoa,Chordata,Actinopteri,Acipenseriformes,Acipenseridae,Acipenser ,Acipenser ruthenus
+fAciRut3,fAciRut3,sterlet,Eukaryota,Metazoa,Chordata,Actinopteri,Acipenseriformes,Acipenseridae,Acipenser,Acipenser ruthenus
 fBarBab1,fBarBab1,Barbel,Eukaryota,Metazoa,Chordata,Actinopteri,Cypriniformes,Cyprinidae,Barbus,Barbus barbus
 fBarBar1,fBarBar1,Stone loach,Eukaryota,Metazoa,Chordata,Actinopteri,Cypriniformes,Nemacheilidae,Barbatula,Barbatula barbatula
 fBleOce1,fBleOce1,Butterfly blenny,Eukaryota,Metazoa,Chordata,Actinopteri,Blenniiformes,Blenniidae,Blennius,Blennius ocellaris
@@ -143,7 +144,7 @@ grSimLame1,grSimLame1,.,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,C
 grTriPseu1,grTriPseu1,.,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,Trichoderma citrinoviride
 gsMetZobe1,gsMetZobe1,(a marine yeast),Eukaryota,Fungi,Ascomycota,Pichiomycetes,Serinales,Metschnikowiaceae,Metschnikowia,Metschnikowia zobellii
 gzEntParv1,gzEntParv1,.,Eukaryota,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Entomortierella,Entomortierella parvispora
-gzMucPiri1,gzMucPiri1,.,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,Mucor piriformis
+gzMucPiri1,gzMucPiri1,Plant pathogen,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,Mucor piriformis
 iHemFuc1,iHemFuc2,Broad-bordered bee hawk-moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sphingidae,Hemaris,Hemaris fuciformis
 icAdaBipu1,icAdaBipu15,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Adalia,Adalia bipunctata
 icAdaBipu1,icAdaBipu20,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Adalia,Adalia bipunctata
@@ -157,38 +158,39 @@ icAdaBipu1,icAdaBipu36,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Cole
 icAdaBipu1,icAdaBipu6,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Adalia,Adalia bipunctata
 icAdaBipu1,icAdaBipu9,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Adalia,Adalia bipunctata
 icAdaBipu1,icAdaBipu1,2-spot ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Adalia,Adalia bipunctata
-icAgoFuli1,icAgoFuli1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Agonum,Agonum fuliginosum
-icAgrCyan1,icAgrCyan1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Buprestidae,Agrilus,Agrilus cyanescens
-icAgrMuri1,icAgrMuri1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Elateridae,Agrypnus,Agrypnus murinus
-icAnaMacu3,icAnaMacu3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Scraptiidae,Anaspis,Anaspis maculata
+icAgoFuli1,icAgoFuli1,Ground beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Agonum,Agonum fuliginosum
+icAgrCyan1,icAgrCyan1,Metallic wood boring beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Buprestidae,Agrilus,Agrilus cyanescens
+icAgrMuri1,icAgrMuri1,Click beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Elateridae,Agrypnus,Agrypnus murinus
+icAnaMacu3,icAnaMacu3,False flower beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Scraptiidae,Anaspis,Anaspis maculata
 icApoCory1,icApoCory1,Hazel leaf-roller,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Attelabidae,Apoderus,Apoderus coryli
-icCanRufa1,icCanRufa1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Cantharis,Cantharis rufa
+icCanRufa1,icCanRufa1,Soldier beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Cantharis,Cantharis rufa
 icCanRust1,icCanRust3,Sailor beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Cantharis,Cantharis rustica
 icCanRust1,icCanRust1,Sailor beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Cantharis,Cantharis rustica
-icCetAura1,icCetAura1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Scarabaeidae,Cetonia,Cetonia aurata
-icChrOric1,icChrOric1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Chrysolina,Chrysolina oricalcia
+icCanRust1,icCanRust2,Sailor beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Cantharis,Cantharis rustica
+icCetAura1,icCetAura1,Rose chafer,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Scarabaeidae,Cetonia,Cetonia aurata
+icChrOric1,icChrOric1,Cow parsley leaf beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Chrysolina,Chrysolina oricalcia
 icCocSept1,icCocSept1,Seven-spotted ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Coccinella,Coccinella septempunctata
-icCryMora2,icCryMora2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Cryptocephalus,Cryptocephalus moraei
+icCryMora2,icCryMora2,Leaf beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Cryptocephalus,Cryptocephalus moraei
 icElmAene2,icElmAene2,Riffle beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,Elmis aenea
 icHalSede1,icHalSede1,Orange ladybird,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Halyzia,Halyzia sedecimguttata
 icHarAxyr1,icHarAxyr1,Harlequin,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Coccinellidae,Harmonia,Harmonia axyridis
-icLagHirt1,icLagHirt1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Lagria,Lagria hirta
-icLeiSpin1,icLeiSpin1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Leistus,Leistus spinibarbis
-icLepMacu1,icLepMacu1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cerambycidae,Rutpela,Rutpela maculata
+icLagHirt1,icLagHirt1,Darkling beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Lagria,Lagria hirta
+icLeiSpin1,icLeiSpin1,Ground beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Leistus,Leistus spinibarbis
+icLepMacu1,icLepMacu1,Longhorn beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cerambycidae,Rutpela,Rutpela maculata
 icLocCapr1,icLocCapr1,Willow leaf beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Lochmaea,Lochmaea capreae
 icLocCrat2,icLocCrat2,Hawthorn leaf beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Lochmaea,Lochmaea crataegi
 icMalBipu1,icMalBipu1,Common malachite beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Melyridae,Malachius,Malachius bipustulatus
 icMelMelo1,icMelMelo1,Cockchafer,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Scarabaeidae,Melolontha,Melolontha melolontha
-icNebBrev1,icNebBrev1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Nebria,Nebria brevicollis
-icNebSali1,icNebSali1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Nebria,Nebria salina
+icNebBrev1,icNebBrev1,Ground beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Nebria,Nebria brevicollis
+icNebSali1,icNebSali1,Carabid beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Nebria,Nebria salina
 icOcyOlen1,icOcyOlen1,Devil's coach horse,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Staphylinidae,Ocypus,Ocypus olens
-icOphArdo1,icOphArdo1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Ophonus,Ophonus ardosiacus
+icOphArdo1,icOphArdo1,Ground beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Ophonus,Ophonus ardosiacus
 icPhiCogn1,icPhiCogn1,Rove beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Staphylinidae,Philonthus,Philonthus cognatus
-icPodAlpi1,icPodAlpi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Podabrus,Podabrus alpinus
-icPolCerv1,icPolCerv1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Curculionidae,Polydrusus,Polydrusus cervinus
+icPodAlpi1,icPodAlpi1,Solider beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Podabrus,Podabrus alpinus
+icPolCerv1,icPolCerv1,Weevil,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Curculionidae,Polydrusus,Polydrusus cervinus
 icPteMadi1,icPteMadi3,Black clock beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Pterostichus,Pterostichus madidus
 icPteMadi1,icPteMadi1,Black clock beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Pterostichus,Pterostichus madidus
-icPteNige1,icPteNige1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Pterostichus,Pterostichus niger
+icPteNige1,icPteNige1,Ground beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Carabidae,Pterostichus,Pterostichus niger
 icPyrSerr1,icPyrSerr1,Red-headed cardinal beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Pyrochroidae,Pyrochroa,Pyrochroa serraticornis
 icRhaFulv1,icRhaFulv1,Common red soldier beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Cantharidae,Rhagonycha,Rhagonycha fulva
 icSilAtra2,icSilAtra2,Black snail beetle,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Silphidae,Silpha,Phosphuga atrata
@@ -201,64 +203,65 @@ idBleFall4,idBleFall4,Pine hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera
 idBomDisc1,idBomDisc1,Dotted bee fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Bombyliidae,Bombylius,Bombylius discolor
 idBomMajo1,idBomMajo1,Dark edged bee fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Bombyliidae,Bombylius,Bombylius major
 idBraLaph1,idBraLaph1,Forest hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Brachypalpus,Brachypalpus laphriformis
-idCalVomi1,idCalVomi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Calliphoridae,Calliphora,Calliphora vomitoria
-idCheImpr3,idCheImpr3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia impressa
+idCalVomi1,idCalVomi1,Bluebottle,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Calliphoridae,Calliphora,Calliphora vomitoria
+idCheImpr3,idCheImpr3,Hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia impressa
 idChePaga1,idChePaga1,Parsley cheilosia,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia pagana
 idCheUrba1,idCheUrba1,Hawkweed cheilosia,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia urbana
 idCheVern2,idCheVern2,Yarrow cheilosia,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia vernalis
 idCheVulp2,idCheVulp2,Large burdock cheilosia,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Cheilosia,Cheilosia vulpina
 idChrBici1,idChrBici1,Two-banded wasp hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Chrysotoxum,Chrysotoxum bicinctum
-idCisGlob1,idCisGlob1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Cistogaster,Cistogaster globosa
-idCluTigr1,idCluTigr1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Clusiidae,Clusia,Clusia tigrina
-idCoePili4,idCoePili4,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Coelopidae,Coelopa,Coelopa pilipes
-idCorMarg1,idCorMarg1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sciomyzidae,Coremacera,Coremacera marginata
+idCisGlob1,idCisGlob1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Cistogaster,Cistogaster globosa
+idCluTigr1,idCluTigr1,Druid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Clusiidae,Clusia,Clusia tigrina
+idCoePili4,idCoePili4,Kelp fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Coelopidae,Coelopa,Coelopa pilipes
+idCorMarg1,idCorMarg1,Snail-killing fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sciomyzidae,Coremacera,Coremacera marginata
 idCriBerb1,idCriBerb1,Dimorphic bear hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Criorhina,Criorhina berberina
 idDasAlbo1,idDasAlbo1,Stripe-backed dasysyrphus,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Dasysyrphus,Dasysyrphus albostriatus
 idEpiBalt1,idEpiBalt1,Marmalade hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Episyrphus,Episyrphus balteatus
-idEpiEuco1,idEpiEuco1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Epistrophella,Epistrophella euchroma
+idEpiEuco1,idEpiEuco1,Hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Epistrophella,Epistrophella euchroma
 idEpiGros1,idEpiGros1,Broad-banded epistrophe,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Epistrophe,Epistrophe grossulariae
-idEpiSucc1,idEpiSucc1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Epicampocera,Epicampocera succincta
+idEpiSucc1,idEpiSucc1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Epicampocera,Epicampocera succincta
 idEriArbu1,idEriArbu1,Plane-faced dronefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eristalis,Eristalis arbustorum
 idEriPert2,idEriPert2,Tapered dronefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eristalis,Eristalis pertinax
 idEriSepu1,idEriSepu1,Small spotty-eyed dronefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eristalinus,Eristalinus sepulchralis
 idEriTena2,idEriTena2,The dronefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eristalis,Eristalis tenax
-idEupCoro1,idEupCoro1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eupeodes,Eupeodes corollae
+idEupCoro1,idEupCoro1,Vagrant hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eupeodes,Eupeodes corollae
 idEupLati1,idEupLati1,Meadow field syrph,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Eupeodes,Eupeodes latifasciatus
-idGymRotn1,idGymRotn1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Gymnosoma,Gymnosoma rotundatum
+idGymRotn1,idGymRotn1,Parasitoid ladybird fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Gymnosoma,Gymnosoma rotundatum
 idLeuLate1,idLeuLate1,Dark-saddled leucozona,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Leucozona,Leucozona laternaria
-idLypDubi1,idLypDubi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Lypha,Lypha dubia
-idMacAtri3,idMacAtri3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Asilidae,Machimus,Machimus atricapillus
+idLypDubi1,idLypDubi1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Lypha,Lypha dubia
+idMacAtri3,idMacAtri3,Kite-tailed Robberfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Asilidae,Machimus,Machimus atricapillus
 idMelAuri2,idMelAuri2,Spotted meliscaeva,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Meliscaeva,Meliscaeva auricollis
 idMelMell2,idMelMell2,Dumpy grass hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Melanostoma,Melanostoma mellinum
 idMyaFlor2,idMyaFlor2,Batman hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Myathropa,Myathropa florea
-idMyoTess1,idMyoTess1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Conopidae,Myopa,Myopa tessellatipennis
-idNemNigr1,idNemNigr1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Stratiomyidae,Nemotelus,Nemotelus nigrinus
+idMyoTess1,idMyoTess1,Thick-headed fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Conopidae,Myopa,Myopa tessellatipennis
+idNemNigr1,idNemNigr1,Soldierfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Stratiomyidae,Nemotelus,Nemotelus nigrinus
 idNeoCyan1,idNeoCyan1,Common awl robberfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Asilidae,Neoitamus,Neoitamus cyanurus
 idNeoInte1,idNeoInte1,Bulrush neoascia,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Neoascia,Neoascia interrupta
 idNepAppe1,idNepAppe1,Spotted cranefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tipulidae,Nephrotoma,Nephrotoma appendiculata
 idNepFlae1,idNepFlae1,Cranefly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tipulidae,Nephrotoma,Nephrotoma flavescens
-idNepScut1,idNepScut1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Pipunculidae,Nephrocerus,Nephrocerus scutellatus
-idNowFero1,idNowFero1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Nowickia,Nowickia ferox
-idPheCory1,idPheCory1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sciomyzidae,Pherbina,Pherbina coryleti
-idPhyMeln1,idPhyMeln1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Rhinophoridae,Phyto,Phyto melanocephala
+idNepScut1,idNepScut1,Pipunculid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Pipunculidae,Nephrocerus,Nephrocerus scutellatus
+idNowFero1,idNowFero1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Nowickia,Nowickia ferox
+idPheCory1,idPheCory1,Snail-killing fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sciomyzidae,Pherbina,Pherbina coryleti
+idPhyMeln1,idPhyMeln1,Woodlouse fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Rhinophoridae,Phyto,Phyto melanocephala
 idPlaAlba1,idPlaAlba3,White-footed hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Platycheirus,Platycheirus albimanus
 idPlaAlba1,idPlaAlba4,White-footed hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Platycheirus,Platycheirus albimanus
 idPlaAlba1,idPlaAlba1,White-footed hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Platycheirus,Platycheirus albimanus
-idPoeNobi2,idPoeNobi2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Dolichopodidae,Poecilobothrus,Poecilobothrus nobilitatus
+idPoeNobi2,idPoeNobi2,Semaphore fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Dolichopodidae,Poecilobothrus,Poecilobothrus nobilitatus
+idPoeNobi2,idPoeNobi1,Semaphore fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Dolichopodidae,Poecilobothrus,Poecilobothrus nobilitatus
 idPolAmen1,idPolAmen1,Black-bellied clusterfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Polleniidae,Pollenia,Pollenia amentaria
 idPolAngu1,idPolAngu1,Narrow-cheeked clusterfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Polleniidae,Pollenia,Pollenia angustigena
-idPolDomi1,idPolDomi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Muscidae,Polietes,Polietes domitor
+idPolDomi1,idPolDomi1,Muscid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Muscidae,Polietes,Polietes domitor
 idProAzur1,idProAzur1,Bird blowfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Calliphoridae,Protocalliphora,Protocalliphora azurea
 idRhiCamp1,idRhiCamp1,Common snout-hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Rhingia,Rhingia campestris
-idSarCaer1,idSarCaer1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga caerulescens
-idSarRose1,idSarRose1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga rosellei
-idSarSubv1,idSarSubv1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga subvicina
-idSarVari1,idSarVari1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga variegata
+idSarCaer1,idSarCaer1,Bluish flesh fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga caerulescens
+idSarRose1,idSarRose1,Roselle's flesh fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga rosellei
+idSarSubv1,idSarSubv1,Lesser worm flesh fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga subvicina
+idSarVari1,idSarVari1,Variegated flesh fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sarcophagidae,Sarcophaga,Sarcophaga variegata
 idScaPyra1,idScaPyra1,Pied hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Scaeva,Scaeva pyrastri
 idSicFerr1,idSicFerr1,Ferruginous bee-grabber,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Conopidae,Sicus,Sicus ferrugineus
-idSphTaen1,idSphTaen1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Sphaerophoria,Sphaerophoria taeniata
-idStoLuna1,idStoLuna1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Rhiniidae,Stomorhina,Stomorhina lunata
-idSuiVari3,idSuiVari3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Heleomyzidae,Suillia,Suillia variegata
+idSphTaen1,idSphTaen1,Hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Sphaerophoria,Sphaerophoria taeniata
+idStoLuna1,idStoLuna1,Locust fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Rhiniidae,Stomorhina,Stomorhina lunata
+idSuiVari3,idSuiVari3,Heleomyzid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Heleomyzidae,Suillia,Suillia variegata
 idSyrPipi1,idSyrPipi10,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
 idSyrPipi1,idSyrPipi11,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
 idSyrPipi1,idSyrPipi2,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
@@ -268,11 +271,11 @@ idSyrPipi1,idSyrPipi7,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta
 idSyrPipi1,idSyrPipi8,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
 idSyrPipi1,idSyrPipi9,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
 idSyrPipi1,idSyrPipi1,Thick-legged hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Syritta,Syritta pipiens
-idTacFera2,idTacFera2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Tachina,Tachina fera
-idTacLuri1,idTacLuri1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Tachina,Tachina lurida
-idTheAcut1,idTheAcut1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Thecocarcelia,Thecocarcelia acutangulata
-idTheAtra2,idTheAtra2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Conopidae,Thecophora,Thecophora atra
-idTheSoli1,idTheSoli1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Thelaira,Thelaira solivaga
+idTacFera2,idTacFera2,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Tachina,Tachina fera
+idTacLuri1,idTacLuri1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Tachina,Tachina lurida
+idTheAcut1,idTheAcut1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Thecocarcelia,Thecocarcelia acutangulata
+idTheAtra2,idTheAtra2,Conopid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Conopidae,Thecophora,Thecophora atra
+idTheSoli1,idTheSoli1,Tachinid fly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tachinidae,Thelaira,Thelaira solivaga
 idVolBomb1,idVolBomb1,Bumblebee hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Volucella,Volucella bombylans
 idVolInan1,idVolInan1,Lesser hornet hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Volucella,Volucella inanis
 idVolInfl1,idVolInfl1,Cossus hoverfly,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Syrphidae,Volucella,Volucella inflata
@@ -282,12 +285,12 @@ ihAcaHaem1,ihAcaHaem1,Hawthorn shieldbug,Eukaryota,Metazoa,Arthropoda,Insecta,He
 ihAelAcum1,ihAelAcum1,Bishop's mitre shieldbug,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Pentatomidae,Aelia,Aelia acuminata
 ihDrePlat2,ihDrePlat2,Common sycamore aphid,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Aphididae,Drepanosiphum,Drepanosiphum platanoidis
 ihGonAcut1,ihGonAcut1,Box bug,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Coreidae,Gonocerus,Gonocerus acuteangulatus
-ihRhaNebu1,ihRhaNebu1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Pentatomidae,Rhaphigaster,Rhaphigaster nebulosa
-iiAthCine2,iiAthCine2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,Athripsodes cinereus
-iiGlyPell1,iiGlyPell1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Glyphotaelius,Glyphotaelius pellucidus
-iiLimLuna2,iiLimLuna2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus lunatus
-iiLimMarm1,iiLimMarm1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus marmoratus
-iiLimRhom1,iiLimRhom1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus rhombicus
+ihRhaNebu1,ihRhaNebu1,Mottled shieldbug,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Pentatomidae,Rhaphigaster,Rhaphigaster nebulosa
+iiAthCine2,iiAthCine2,Brown silverhorn,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,Athripsodes cinereus
+iiGlyPell1,iiGlyPell1,Mottled Sedge,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Glyphotaelius,Glyphotaelius pellucidus
+iiLimLuna2,iiLimLuna2,Caddisfly,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus lunatus
+iiLimMarm1,iiLimMarm1,Cinnamon sedge caddisfly,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus marmoratus
+iiLimRhom1,iiLimRhom1,Caddisfly,Eukaryota,Metazoa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,Limnephilus rhombicus
 ilAbrTril1,ilAbrTril1,Dark spectacle,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Abrostola,Abrostola triplasia
 ilAbrTrip1,ilAbrTrip1,The spectacle,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Abrostola,Abrostola tripartita
 ilAceEphe1,ilAceEphe1,Water veneer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Acentria,Acentria ephemerella
@@ -298,7 +301,7 @@ ilAclLite1,ilAclLite1,Lichen button,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidop
 ilAclSpar1,ilAclSpar1,Ashy button,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Acleris,Acleris sparsana
 ilAcrAcer1,ilAcrAcer1,The sycamore,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Acronicta,Acronicta aceris
 ilAcrLepo1,ilAcrLepo1,The miller,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Acronicta,Acronicta leporina
-ilAcrPsix1,ilAcrPsix1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Acronicta,Acronicta psi
+ilAcrPsix1,ilAcrPsix1,Grey Dagger,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Acronicta,Acronicta psi
 ilAcrSuav1,ilAcrSuav1,Thicket knot-horn,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pyralidae,Acrobasis,Acrobasis suavella
 ilAglIoxx1,ilAglIoxx1,European peacock,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Inachis,Inachis io
 ilAglUrti1,ilAglUrti1,Small tortoiseshell,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Aglais,Nymphalis urticae
@@ -307,7 +310,7 @@ ilAgoSubp1,ilAgoSubp1,Ruddy flat-body,Eukaryota,Metazoa,Arthropoda,Insecta,Lepid
 ilAgrAura1,ilAgrAura1,Scarce umber,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Agriopis,Agriopis aurantiaria
 ilAgrCirc1,ilAgrCirc1,The brick,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrochola,Agrochola circellaris
 ilAgrLeuc1,ilAgrLeuc1,Spring usher,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Agriopis,Agriopis leucophaearia
-ilAgrLota1,ilAgrLota1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrochola,Agrochola lota
+ilAgrLota1,ilAgrLota1,Red-line quaker,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrochola,Agrochola lota
 ilAgrMaci1,ilAgrMaci1,Yellow-line quaker,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrochola,Agrochola macilenta
 ilAgrMarg1,ilAgrMarg1,Dotted border,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Agriopis,Agriopis marginaria
 ilAgrPuta1,ilAgrPuta1,Shuttle-shaped dart,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrotis,Agrotis puta
@@ -316,13 +319,13 @@ ilAlcRepa2,ilAlcRepa2,Mottled beauty moth,Eukaryota,Metazoa,Arthropoda,Insecta,L
 ilAllOxya1,ilAllOxya1,Green-brindled crescent,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Allophyes,Allophyes oxyacanthae
 ilAlsAesc1,ilAlsAesc1,March moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Alsophila,Alsophila aescularia
 ilAmpBerb1,ilAmpBerb1,Svensson's copper underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Amphipyra,Amphipyra berbera
-ilAmpLuce6,ilAmpLuce6,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Amphipoea,Amphipoea lucens
+ilAmpLuce6,ilAmpLuce6,Large ear,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Amphipoea,Amphipoea lucens
 ilAmpOcul1,ilAmpOcul1,Ear moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Amphipoea,Amphipoea oculea
 ilAmpTrag2,ilAmpTrag2,Mouse moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Amphipyra,Amphipyra tragopoginis
 ilAnaInnx2,ilAnaInnx2,Acer sober,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Gelechiidae,Anarsia,Anarsia innoxiella
 ilAnoMund1,ilAnoMund1,Twin-spotted quaker,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Anorthoa,Anorthoa munda
 ilAntCard3,ilAntCard3,Orange tip,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pieridae,Anthocharis,Anthocharis cardamines
-ilAntChix2,ilAntChix2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Antitype,Antitype chi
+ilAntChix2,ilAntChix2,Grey chi,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Antitype,Antitype chi
 ilAntDeri1,ilAntDeri1,Streamer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Anticlea,Anticlea derivata
 ilApaEpom1,ilApaEpom1,Clouded brindle,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Apamea,Apamea epomidion
 ilApaMono1,ilApaMono1,Dark arches,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Apamea,Apamea monoglypha
@@ -334,9 +337,9 @@ ilApoBist1,ilApoBist1,Heath knot-horn,Eukaryota,Metazoa,Arthropoda,Insecta,Lepid
 ilApoCapr1,ilApoCapr1,Sallow marble,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Apotomis,Apotomis capreana
 ilApoCrat1,ilApoCrat1,Black veined white,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pieridae,Aporia,Aporia crataegi
 ilApoHisp1,ilApoHisp1,Small brindled beauty,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Apocheima,Apocheima hispidaria
-ilApoLima1,ilApoLima1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Limacodidae,Apoda,Apoda limacodes
+ilApoLima1,ilApoLima1,Festoon,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Limacodidae,Apoda,Apoda limacodes
 ilApoLuen1,ilApoLuen1,Northern deep-brown dart,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Aporophyla,Aporophyla lueneburgensis
-ilApoNigr3,ilApoNigr3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Aporophyla,Aporophyla nigra
+ilApoNigr3,ilApoNigr3,Black rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Aporophyla,Aporophyla nigra
 ilApoTurb1,ilApoTurb1,White-shouldered marble,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Apotomis,Apotomis turbidana
 ilArcCraa1,ilArcCraa1,Brown oak tortrix,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Archips,Archips crataeganus
 ilArcXylo1,ilArcXylo1,Variegated golden tortrix,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Archips,Archips xylosteana
@@ -357,26 +360,26 @@ ilBraVimi1,ilBraVimi1,Minor shoulder-knot,Eukaryota,Metazoa,Arthropoda,Insecta,L
 ilCalPalu1,ilCalPalu1,Bulrush veneer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Calamotropha,Calamotropha paludella
 ilCamMarg1,ilCamMarg1,Light emerald,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Campaea,Campaea margaritaria
 ilCarClav1,ilCarClav1,Pale mottled willow,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Caradrina,Caradrina clavipalpis
-ilCarKade1,ilCarKade1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Caradrina,Caradrina kadenii
+ilCarKade1,ilCarKade1,Clancy's rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Caradrina,Caradrina kadenii
 ilCarPala2,ilCarPala2,Arctic skipper,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Hesperiidae,Carterocephalus,Carterocephalus palaemon
 ilCarQuer1,ilCarQuer1,Long-horned flat-body,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Depressariidae,Carcina,Carcina quercana
 ilCatFrax1,ilCatFrax1,Cliften non-pareil,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Catocala,Catocala fraxini
 ilCelArgi3,ilCelArgi3,Holly blue,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Celastrina,Celastrina argiolus
 ilChaFerr1,ilChaFerr1,Brown rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Charanyca,Charanyca ferruginea
-ilCheLega1,ilCheLega1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Chesias,Chesias legatella
+ilCheLega1,ilCheLega1,Streak,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Chesias,Chesias legatella
 ilChlSite2,ilChlSite2,Red-green carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Chloroclysta,Chloroclysta siterata
 ilChrCulm1,ilChrCulm1,Garden grass-veneer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Chrysoteuchia,Chrysoteuchia culmella
 ilCloCurt1,ilCloCurt1,Chocolate tip,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Notodontidae,Clostera,Clostera curtula
 ilColCroc2,ilColCroc2,Clouded yellow,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pieridae,Colias,Colias croceus
 ilColFlav1,ilColFlav1,Tipped oak case-bearer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Coleophoridae,Coleophora,Coleophora flavipennella
 ilConVacc3,ilConVacc3,The chestnut,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Conistra,Conistra vaccinii
-ilCosPyra2,ilCosPyra2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Cosmia,Cosmia pyralina
+ilCosPyra2,ilCosPyra2,Lunar-spotted Pinion,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Cosmia,Cosmia pyralina
 ilCosTrap1,ilCosTrap1,Dun-bar pinion,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Cosmia,Cosmia trapezina
 ilCraLigu1,ilCraLigu1,Coronet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Craniophora,Craniophora ligustri
 ilCroElin1,ilCroElin1,Scalloped oak,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Crocallis,Crocallis elinguaria
 ilCyaSemi1,ilCyaSemi1,Mazarine blue,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Cyaniris,Cyaniris semiargus
-ilCybMeso1,ilCybMeso1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Cybosia,Cybosia mesomella
-ilCydAmpl1,ilCydAmpl1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cydia,Cydia amplana
+ilCybMeso1,ilCybMeso1,Four-dotted Footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Cybosia,Cybosia mesomella
+ilCydAmpl1,ilCydAmpl1,Rusty oak,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cydia,Cydia amplana
 ilCydSple1,ilCydSple1,Marbled piercer,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cydia,Cydia splendana
 ilCydStro3,ilCydStro1,Spruce-seed moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cydia,Cydia strobilella
 ilCydStro3,ilCydStro3,Spruce-seed moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cydia,Cydia strobilella
@@ -384,14 +387,14 @@ ilDeiPorc1,ilDeiPorc1,Small elephant hawk-moth,Eukaryota,Metazoa,Arthropoda,Inse
 ilDiaChry1,ilDiaChry1,Burnished brass,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Diachrysia,Diachrysia chrysitis
 ilDiaMend1,ilDiaMend1,Muslin,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Diaphora,Diaphora mendica
 ilDiaRubi1,ilDiaRubi1,Small square-spot,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Diarsia,Diarsia rubi
-ilDicOoxx2,ilDicOoxx2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Dicycla,Dicycla oo
+ilDicOoxx2,ilDicOoxx2,Heart Moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Dicycla,Dicycla oo
 ilDilCaer1,ilDilCaer1,Figure of eight,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Diloba,Diloba caeruleocephala
 ilDreFalc1,ilDreFalc1,Pebble hook-tip,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Drepanidae,Drepana,Drepana falcataria
 ilDryErem1,ilDryErem1,Brindled green,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Dryobotodes,Dryobotodes eremita
 ilDryLabe1,ilDryLabe1,Oak rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Dryobota,Dryobota labecula
 ilDryRufi1,ilDryRufi1,Lunar marbled brown,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Notodontidae,Drymonia,Drymonia ruficornis
 ilEclSila1,ilEclSila1,Small phoenix,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Ecliptopera,Ecliptopera silaceata
-ilEilCani1,ilEilCani1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Eilema,Eilema caniola
+ilEilCani1,ilEilCani1,Hoary footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Eilema,Eilema caniola
 ilEilDepe1,ilEilDepe1,Buff footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Eilema,Eilema depressum
 ilEilSoro1,ilEilSoro1,Orange footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Eilema,Eilema sororcula
 ilEleCory1,ilEleCory1,Broken-barred carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Electrophaes,Electrophaes corylata
@@ -406,15 +409,16 @@ ilEpiNise2,ilEpiNise2,Grey poplar bell,Eukaryota,Metazoa,Arthropoda,Insecta,Lepi
 ilEpiRame1,ilEpiRame1,Small birch bell,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Epinotia,Epinotia ramella
 ilEraDefo1,ilEraDefo1,Mottled umber,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Erannis,Erannis defoliaria
 ilEreAeth2,ilEreAeth2,Scotch argus,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Erebia,Erebia aethiops
+ilEreAeth2,ilEreAeth1,Scotch argus,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Erebia,Erebia aethiops
 ilEreLige1,ilEreLige1,Arran brown,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Erebia,Erebia ligea
 ilEryTage1,ilEryTage1,Dingy skipper,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Hesperiidae,Erynnis,Erynnis tages
 ilEspSulp1,ilEspSulp1,Sulphur tubic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Oecophoridae,Esperia,Esperia sulphurella
 ilEucMixx1,ilEucMixx1,Mother shipton,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Euclidia,Euclidia mi
 ilEudLacu3,ilEudLacu3,Little grey,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Eudonia,Eudonia lacustrata
 ilEudProf1,ilEudProf1,Diamond-back marble,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Eudemis,Eudemis profundana
-ilEugGlar6,ilEugGlar6,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Eugnorisma,Eugnorisma glareosa
+ilEugGlar6,ilEugGlar6,Autumnal rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Eugnorisma,Eugnorisma glareosa
 ilEulPrun1,ilEulPrun1,The phoenix,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eulithis,Eulithis prunata
-ilEulTest2,ilEulTest2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eulithis,Eulithis testata
+ilEulTest2,ilEulTest2,Chevron,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eulithis,Eulithis testata
 ilEupAbbr2,ilEupAbbr2,Brindled pug,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eupithecia,Eupithecia abbreviata
 ilEupCent1,ilEupCent1,Lime-speck pug,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eupithecia,Eupithecia centaureata
 ilEupDodo1,ilEupDodo1,Oak tree pug,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Eupithecia,Eupithecia dodoneata
@@ -447,13 +451,13 @@ ilHylFasc1,ilHylFasc1,Barred red,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidopter
 ilHypCost1,ilHypCost1,Gold triangle,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pyralidae,Hypsopygia,Hypsopygia costalis
 ilHypProb1,ilHypProb1,The snout,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Hypena,Hypena proboscidalis
 ilIdaAver1,ilIdaAver1,Riband wave,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Idaea,Idaea aversata
-ilIncMasc1,ilIncMasc1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Incurvariidae,Incurvaria,Incurvaria masculella
+ilIncMasc1,ilIncMasc1,Feathered bright,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Incurvariidae,Incurvaria,Incurvaria masculella
 ilLacWlai2,ilLacWlai2,Light brocade,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Lacanobia,Lacanobia wlatinum
 ilLamSuff1,ilLamSuff1,Water carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Lampropteryx,Lampropteryx suffumata
 ilLaoPopu1,ilLaoPopu1,Poplar hawk-moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sphingidae,Laothoe,Laothoe populi
 ilLasFlex1,ilLasFlex1,Beautiful hook-tip,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Laspeyria,Laspeyria flexula
 ilLasMege1,ilLasMege1,Wall brown,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Lasiommata,Lasiommata megera
-ilLatStri6,ilLatStri6,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Lathronympha,Lathronympha strigana
+ilLatStri6,ilLatStri6,Tortricid,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Lathronympha,Lathronympha strigana
 ilLepSina1,ilLepSina1,Wood white,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pieridae,Leptidea,Leptidea sinapis
 ilLeuSali1,ilLeuSali1,White satin,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Leucoma,Leucoma salicis
 ilLigAdus1,ilLigAdus1,Scorched carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Ligdia,Ligdia adustata
@@ -463,7 +467,7 @@ ilLitSemi2,ilLitSemi2,Tawny pinion,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidopt
 ilLitSoci1,ilLitSoci1,Pale pinion,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Lithophane,Lithophane socia
 ilLobHalt1,ilLobHalt1,The seraphim,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Lobophora,Lobophora halterata
 ilLomBima1,ilLomBima1,White-pinioned spotted,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Lomographa,Lomographa bimaculata
-ilLupTest1,ilLupTest1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Luperina,Luperina testacea
+ilLupTest1,ilLupTest1,Flounced rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Luperina,Luperina testacea
 ilLycHirt1,ilLycHirt1,Brindled beauty,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Lycia,Lycia hirtaria
 ilLycPhla1,ilLycPhla1,Small copper,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Lycaena,Lycaena phlaeas
 ilLymMona1,ilLymMona1,Black arches,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Lymantria,Lymantria monacha
@@ -478,20 +482,22 @@ ilMegAlbu1,ilMegAlbu1,Kent black arches,Eukaryota,Metazoa,Arthropoda,Insecta,Lep
 ilMelAtha1,ilMelAtha1,Heath fritillary,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Melitaea,Mellicta athalia
 ilMelCinx1,ilMelCinx1,Glanville fritillary,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Melitaea,Melitaea cinxia
 ilMelGala2,ilMelGala2,Marbled white,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Melanargia,Melanargia galathea
+ilMelGala2,ilMelGala1,Marbled white,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Melanargia,Melanargia galathea
 ilMelPers1,ilMelPers1,Dot moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Melanchra,Melanchra persicariae
 ilMesFuru1,ilMesFuru1,Cloaked minor,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Mesoligia,Mesoligia furuncula
 ilMicArun2,ilMicArun2,White-barred gold,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Micropterigidae,Micropterix,Micropterix aruncella
 ilMilMini2,ilMilMini2,Rosy footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Miltochrista,Miltochrista miniata
+ilMilMini2,ilMilMini1,Rosy footman,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Miltochrista,Miltochrista miniata
 ilMimTili1,ilMimTili1,Lime hawk-moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sphingidae,Mimas,Mimas tiliae
 ilMonLaev2,ilMonLaev1,Skin moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tineidae,Monopis,Monopis laevigella
 ilMonLaev2,ilMonLaev2,Skin moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tineidae,Monopis,Monopis laevigella
-ilMusNiti1,ilMusNiti1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Musotima,Musotima nitidalis
+ilMusNiti1,ilMusNiti1,Golden-brown fern,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Crambidae,Musotima,Musotima nitidalis
 ilMytAlbi1,ilMytAlbi1,White-point,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Mythimna,Mythimna albipuncta
 ilMytFerr1,ilMytFerr1,The clay,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Mythimna,Mythimna ferrago
 ilMytImpu1,ilMytImpu1,Smoky wainscot,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Mythimna,Mythimna impura
 ilNemSwae1,ilNemSwae1,Large long-horn,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Adelidae,Nematopogon,Nematopogon swammerdamellus
 ilNocFimb1,ilNocFimb1,Broad-bordered yellow underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Noctua,Noctua fimbriata
-ilNocJant1,ilNocJant1,Tesser broad-boardered yellow underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Noctua,Noctua janthe
+ilNocJant1,ilNocJant1,Lesser broad-bordered yellow underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Noctua,Noctua janthe
 ilNocPron1,ilNocPron1,Large yellow underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Noctua,Noctua pronuba
 ilNotDrom1,ilNotDrom1,Iron prominent,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Notodontidae,Notodonta,Notodonta dromedarius
 ilNotUddm1,ilNotUddm1,Bramble shoot,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Tortricidae,Notocelia,Notocelia uddmanniana
@@ -501,7 +507,7 @@ ilNymNiti1,ilNymNiti1,Beautiful china-mark,Eukaryota,Metazoa,Arthropoda,Insecta,
 ilNymPoly1,ilNymPoly1,Large tortoiseshell,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Nymphalis,Nymphalis polychloros
 ilOchPlec1,ilOchPlec1,Flame shoulder,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Ochropleura,Ochropleura plecta
 ilOchSylv3,ilOchSylv3,Large skipper,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Hesperiidae,Ochlodes,Ochlodes sylvanus
-ilOliLatr1,ilOliLatr1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Oligia,Oligia latruncula
+ilOliLatr1,ilOliLatr1,Tawny Marbled Minor,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Oligia,Oligia latruncula
 ilOmpLuno1,ilOmpLuno1,Lunar underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Omphaloscelis,Omphaloscelis lunosa
 ilOpeBrum1,ilOpeBrum1,Winter moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Operophtera,Operophtera brumata
 ilOpiLute1,ilOpiLute1,Brimstone moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Opisthograptis,Opisthograptis luteolata
@@ -529,10 +535,10 @@ ilPieRapa1,ilPieRapa1,Small white,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidopte
 ilPleArgu1,ilPleArgu1,Silver-studded blue,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Plebejus,Plebejus argus
 ilPluXylo3,ilPluXylo3,Diamondback moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Plutellidae,Plutella,Plutella xylostella
 ilPolIcar1,ilPolIcar1,Common blue,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Polyommatus,Polyommatus icarus
-ilPolLich1,ilPolLich1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Polymixis,Polymixis lichenea
+ilPolLich1,ilPolLich1,Feathered Ranunculus,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Polymixis,Polymixis lichenea
 ilProPyga1,ilProPyga1,Marbled white spot,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Protodeltote,Protodeltote pygarga
 ilPtiCapc1,ilPtiCapc1,Coxcomb prominent,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Notodontidae,Ptilodon,Ptilodon capucinus
-ilPyrFari1,ilPyrFari1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pyralidae,Pyralis,Pyralis farinalis
+ilPyrFari1,ilPyrFari1,Meal moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Pyralidae,Pyralis,Pyralis farinalis
 ilPyrMalv3,ilPyrMalv3,Grizzled skipper,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Hesperiidae,Pyrgus,Pyrgus malvae
 ilSatPavo1,ilSatPavo1,Emperor moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Saturniidae,Saturnia,Saturnia pavonia
 ilSchCost1,ilSchCost1,Pinion-streaked snout,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Schrankia,Schrankia costaestrigalis
@@ -540,6 +546,7 @@ ilSelDent1,ilSelDent1,Early thorn,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidopte
 ilSesApif2,ilSesApif2,Hornet moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sesiidae,Sesia,Sesia apiformis
 ilSesBemb1,ilSesBemb1,Lunar hornet clearwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sesiidae,Sesia,Sesia bembeciformis
 ilShaVerb5,ilShaVerb5,Mullein moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Cucullia,Shargacucullia verbasci
+ilShaVerb5,ilShaVerb1,Mullein moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Cucullia,Shargacucullia verbasci
 ilSphPina1,ilSphPina1,Pine hawkmoth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Sphingidae,Sphinx,Sphinx pinastri
 ilSpiLubr1,ilSpiLubr1,White ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Spilosoma,Spilosoma lubricipeda
 ilSpiLutu1,ilSpiLutu1,Buff ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Spilarctia,Spilarctia lutea
@@ -552,7 +559,7 @@ ilSynVesp1,ilSynVesp1,Yellow-legged clearwing,Eukaryota,Metazoa,Arthropoda,Insec
 ilTelLucu1,ilTelLucu1,Crescent groundling,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Gelechiidae,Teleiodes,Teleiodes luculella
 ilThaMatu1,ilThaMatu1,Straw underwing,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Thalpophila,Thalpophila matura
 ilTheBrit1,ilTheBrit1,Spruce carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Thera,Thera britannica
-ilTheObel3,ilTheObel3,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Thera,Thera obeliscata
+ilTheObel3,ilTheObel3,Grey pine carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Thera,Thera obeliscata
 ilThoDeci1,ilThoDeci1,Feathered gothic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Tholera,Tholera decimalis
 ilThuSene1,ilThuSene1,Round-winged muslin,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Erebidae,Thumatha,Thumatha senex
 ilThyBati1,ilThyBati1,Peach blossom,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Drepanidae,Thyatira,Thyatira batis
@@ -568,12 +575,12 @@ ilUdeOliv2,ilUdeOliv2,Olive pearl,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidopte
 ilVanAtal1,ilVanAtal1,Red admiral,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Vanessa,Vanessa atalanta
 ilVanCard2,ilVanCard2,Painted lady,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Vanessa,Vanessa cardui
 ilWatBina1,ilWatBina1,Oak hook-tip,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Drepanidae,Watsonalla,Watsonalla binaria
-ilXanIcte2,ilXanIcte2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xanthia,Xanthia icteritia
+ilXanIcte2,ilXanIcte2,Sallow,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xanthia,Xanthia icteritia
 ilXanSpad1,ilXanSpad1,Red twin-spot carpet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Geometridae,Xanthorhoe,Xanthorhoe spadicearia
 ilXesCnig1,ilXesCnig1,Setaceous hebrew character,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xestia,Xestia c-nigrum
 ilXesSexs1,ilXesSexs1,Six-striped rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xestia,Xestia sexstrigata
 ilXesXant1,ilXesXant1,Square-spot rustic,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xestia,Xestia xanthographa
-ilXylAreo1,ilXylAreo1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xylocampa,Xylocampa areola
+ilXylAreo1,ilXylAreo1,Early grey,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Xylocampa,Xylocampa areola
 ilYpoCagn1,ilYpoCagn5,Spindle ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta cagnagella
 ilYpoCagn1,ilYpoCagn1,Spindle ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta cagnagella
 ilYpoPade2,ilYpoPade1,Spindle ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta padella
@@ -583,19 +590,21 @@ ilYpoRore1,ilYpoRore1,Apple ermine moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lep
 ilYpoSedl1,ilYpoSedl1,Grey ermine,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta sedellus
 ilYpsScab1,ilYpsScab1,Wainscot smudge,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Ypsolophidae,Ypsolopha,Ypsolopha scabrella
 ilYpsSequ2,ilYpsSequ2,Pied smudge,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Ypsolophidae,Ypsolopha,Ypsolopha sequella
+ilYpsSequ2,ilYpsSequ1,Pied smudge,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Ypsolophidae,Ypsolopha,Ypsolopha sequella
 ilZeuPyri1,ilZeuPyri1,Leopard moth,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Cossidae,Zeuzera,Zeuzera pyrina
 ilZygFili1,ilZygFili1,6-spot burnet,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Zygaenidae,Zygaena,Zygaena filipendulae
 inChrCarn1,inChrCarn1,Common green lacewing,Eukaryota,Metazoa,Arthropoda,Insecta,Neuroptera,Chrysopidae,Chrysoperla,Chrysoperla carnea
-ioIscEleg1,ioIscEleg1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,Ischnura elegans
-ioPlaPenn1,ioPlaPenn1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Odonata,Platycnemididae,Platycnemis,Platycnemis pennipes
+ioIscEleg1,ioIscEleg1,Blue-tailed damselfly,Eukaryota,Metazoa,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,Ischnura elegans
+ioPlaPenn1,ioPlaPenn1,White-legged damselfly,Eukaryota,Metazoa,Arthropoda,Insecta,Odonata,Platycnemididae,Platycnemis,Platycnemis pennipes
 ioSymStri1,ioSymStri1,Common darter,Eukaryota,Metazoa,Arthropoda,Insecta,Odonata,Libellulidae,Sympetrum,Sympetrum striolatum
 ipIsoGram3,ipIsoGram3,Common yellow sally,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Perlodidae,Isoperla,Isoperla grammatica
-ipLeuNigr2,ipLeuNigr2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,Leuctra nigra
-ipNemDubi1,ipNemDubi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,Nemoura dubitans
-ipNemPict2,ipNemPict2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemurella,Nemurella pictetii
-ipProMont4,ipProMont4,.,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Protonemura,Protonemura montana
-iyAllPice1,iyAllPice1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Alloplasta,Alloplasta piceator
-iyAmbArma2,iyAmbArma2,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Amblyteles,Amblyteles armatorius
+ipLeuNigr2,ipLeuNigr2,Black needle fly,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,Leuctra nigra
+ipNemDubi1,ipNemDubi1,Stonefly,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,Nemoura dubitans
+ipNemPict2,ipNemPict2,Stonefly,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemurella,Nemurella pictetii
+ipProMont4,ipProMont4,Spring stonefly,Eukaryota,Metazoa,Arthropoda,Insecta,Plecoptera,Nemouridae,Protonemura,Protonemura montana
+iyAllPice1,iyAllPice1,Ichneumon wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Alloplasta,Alloplasta piceator
+iyAmbArma2,iyAmbArma2,Ichneumonid wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Amblyteles,Amblyteles armatorius
+iyAmbArma2,iyAmbArma1,Ichneumonid wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Amblyteles,Amblyteles armatorius
 iyAncNigr1,iyAncNigr1,Early mason-wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Ancistrocerus,Ancistrocerus nigricornis
 iyAndBuce1,iyAndBuce1,Big-headed mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Andrenidae,Andrena,Andrena bucephala
 iyAndDors1,iyAndDors1,Short-fringed mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Andrenidae,Andrena,Andrena dorsata
@@ -603,9 +612,10 @@ iyAndFulv1,iyAndFulv1,Tawny mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hyme
 iyAndHaem1,iyAndHaem1,Red-tailed mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Andrenidae,Andrena,Andrena haemorrhoa
 iyAndHatt1,iyAndHatt1,Large scabious mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Andrenidae,Andrena,Andrena hattorfiana
 iyAndMinu1,iyAndMinu1,Common mini-mining bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Andrenidae,Andrena,Andrena minutula
-iyAnoNige1,iyAnoNige1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Pompilidae,Anoplius,Anoplius nigerrimus
+iyAnoNige1,iyAnoNige1,Spider wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Pompilidae,Anoplius,Anoplius nigerrimus
 iyAthRosa1,iyAthRosa2,Turnip sawfly,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Athalia,Athalia rosae
 iyAthRosa1,iyAthRosa1,Turnip sawfly,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Athalia,Athalia rosae
+iyAthRosa1,iyAthRosa5,Turnip sawfly,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Athalia,Athalia rosae
 iyBomCamp1,iyBomCamp1,Field cuckoo-bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus campestris
 iyBomHort1,iyBomHort1,Garden bumblebee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus hortorum
 iyBomHypn1,iyBomHypn1,Tree bumblebee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus hypnorum
@@ -613,29 +623,29 @@ iyBomPasc1,iyBomPasc1,Common carder bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hym
 iyBomPrat1,iyBomPrat1,Early bumblebee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus pratorum
 iyBomSyle1,iyBomSyle1,Forest cuckoo bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus sylvestris
 iyBomTerr1,iyBomTerr1,Buff-tailed bumblebee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Bombus terrestris
-iyBuaLabo1,iyBuaLabo1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Buathra,Buathra laborator
-iyCamRapt1,iyCamRapt1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Campoletis,Campoletis raptor
+iyBuaLabo1,iyBuaLabo1,Ichneumon wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Buathra,Buathra laborator
+iyCamRapt1,iyCamRapt1,Ichneumonid wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Campoletis,Campoletis raptor
 iyCerRyby1,iyCerRyby1,Ornate tailed digger wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Cerceris,Cerceris rybyensis
-iyCliInci1,iyCliInci1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Clistopyga,Clistopyga incitator
-iyCoeConi1,iyCoeConi1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Megachilidae,Coelioxys,Coelioxys conoideus
+iyCliInci1,iyCliInci1,Ichneumon wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Clistopyga,Clistopyga incitator
+iyCoeConi1,iyCoeConi1,Shared-tail bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Megachilidae,Coelioxys,Coelioxys conoideus
 iyDolMedi1,iyDolMedi1,Median wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Dolichovespula,Dolichovespula media
 iyDolSaxo1,iyDolSaxo1,Saxon wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Dolichovespula,Dolichovespula saxonica
 iyDolSylv1,iyDolSylv1,Tree wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Dolichovespula,Dolichovespula sylvestris
-iyEctCont1,iyEctCont1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Ectemnius,Ectemnius continuus
-iyEctLitu1,iyEctLitu1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Ectemnius,Ectemnius lituratus
-iyIchXant1,iyIchXant1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Ichneumon,Ichneumon xanthorius
+iyEctCont1,iyEctCont1,Digger wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Ectemnius,Ectemnius continuus
+iyEctLitu1,iyEctLitu1,Digger wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Ectemnius,Ectemnius lituratus
+iyIchXant1,iyIchXant1,Parasitoid wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Ichneumon,Ichneumon xanthorius
 iyLasLatv2,iyLasLatv2,Furry-claspered furrow bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Halictidae,Lasioglossum,Lasioglossum lativentre
 iyLasMori1,iyLasMori1,Common green furrow bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Halictidae,Lasioglossum,Lasioglossum morio
 iyLasPaux1,iyLasPaux1,Base-banded furrow bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Halictidae,Lasioglossum,Lasioglossum pauxillum
 iyMacEuro1,iyMacEuro1,Yellow loosestrife bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Melittidae,Macropis,Macropis europaea
 iyMegLign1,iyMegLign1,Wood-carving leafcutter bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Megachilidae,Megachile,Megachile ligniseca
 iyMegWill1,iyMegWill1,Willughby's leafcutter bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Megachilidae,Megachile,Megachile willughbiella
-iyMimDahl1,iyMimDahl1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Mimumesa,Mimumesa dahlbomi
-iyNetDila1,iyNetDila1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Netelia,Netelia fuscicornis
+iyMimDahl1,iyMimDahl1,Solitary wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Mimumesa,Mimumesa dahlbomi
+iyNetDila1,iyNetDila1,Ichneumonid wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Netelia,Netelia fuscicornis
 iyNomFabr1,iyNomFabr1,Fabricius' nomad bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Nomada,Nomada fabriciana
 iyNomFuca1,iyNomFuca1,Painted nomad bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Nomada,Nomada fucata
 iyNysSpin1,iyNysSpin1,Large spurred digger wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Nysson,Nysson spinosus
-iyOphLute1,iyOphLute1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Ophion,Ophion slaviceki
+iyOphLute1,iyOphLute1,Ichneumon wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Ichneumonidae,Ophion,Ophion slaviceki
 iyPemLugu1,iyPemLugu1,Mournful wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Crabronidae,Pemphredon,Pemphredon lugubris
 iyRhoChlo1,iyRhoChlo1,Narrow-striped rhogogaster,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Rhogogaster,Rhogogaster chlorosoma
 iySelTumu1,iySelTumu1,Bronze furrow bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Halictidae,Seladonia,Seladonia tumulorum
@@ -643,7 +653,7 @@ iySphMoni1,iySphMoni1,Box-headed blood bee,Eukaryota,Metazoa,Arthropoda,Insecta,
 iyStePhae1,iyStePhae1,Plain dark bee,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Megachilidae,Stelis,Stelis phaeoptera
 iyTenDist1,iyTenDist1,Small wasp-sawfly,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Tenthredo,Tenthredo distinguenda
 iyTenMeso1,iyTenMeso1,Common green-tenthredo,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Tenthredo,Tenthredo mesomela
-iyTenNoth1,iyTenNoth1,.,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Tenthredo,Tenthredo notha
+iyTenNoth1,iyTenNoth1,Sawfly,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tenthredinidae,Tenthredo,Tenthredo notha
 iyTipFemo1,iyTipFemo1,Beetle killing wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Tiphiidae,Tiphia,Tiphia femorata
 iyVesCrab1,iyVesCrab1,European hornet,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespa,Vespa crabro
 iyVesGerm1,iyVesGerm1,German wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespula,Vespula germanica
@@ -651,9 +661,10 @@ iyVesVulg1,iyVesVulg2,Common wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenopte
 iyVesVulg1,iyVesVulg3,Common wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespula,Vespula vulgaris
 iyVesVulg1,iyVesVulg5,Common wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespula,Vespula vulgaris
 iyVesVulg1,iyVesVulg1,Common wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespula,Vespula vulgaris
+iyVesVulg1,iyVesVulg4,Common wasp,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Vespidae,Vespula,Vespula vulgaris
 jaDiaLine6,jaDiaLine6,Orange-striped anemone,Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Diadumenidae,Diadumene,Diadumene lineata
 jaMetSeni4,jaMetSeni4,Brown sea anemone,Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Metridiidae,Metridium,Metridium senile
-jaNemVect1,jaNemVect1,.,Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Edwardsiidae,Nematostella,Nematostella vectensis
+jaNemVect1,jaNemVect1,Starlet sea anemone,Eukaryota,Metazoa,Cnidaria,Anthozoa,Actiniaria,Edwardsiidae,Nematostella,Nematostella vectensis
 jhCanCock6,jhCanCock6,(a hydroid),Eukaryota,Metazoa,Cnidaria,Hydrozoa,Anthoathecata,Candelabridae,Candelabrum,Candelabrum cocksii
 jrHalOcto1,jrHalOcto1,Spotted kaleidoscope jellyfish,Eukaryota,Metazoa,Cnidaria,Staurozoa,Stauromedusae,Kishinouyeidae,Haliclystus,Haliclystus octoradiatus
 kaAplTurb1,kaAplTurb1,(a colonial sea squirt),Eukaryota,Metazoa,Chordata,Ascidiacea,Aplousobranchia,Polyclinidae,Aplidium,Aplidium turbinatum
@@ -667,10 +678,10 @@ lpCarAren1,lpCarAren1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poale
 lpCarDepa1,lpCarDepa1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex depauperata
 lpCarDivu1,lpCarDivu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex divulsa
 lpCarPend1,lpCarPend1,Pendulous sedge,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex pendula
-lpCarRost1,lpCarRost1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex rostrata
+lpCarRost1,lpCarRost1,Bottle sedge,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex rostrata
 lpCarSylv1,lpCarSylv1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Carex,Carex sylvatica
-lpJunEffu1,lpJunEffu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Juncaceae,Juncus,Juncus effusus
-lpLuzSylv1,lpLuzSylv1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Juncaceae,Luzula,Luzula sylvatica
+lpJunEffu1,lpJunEffu1,Soft rush,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Juncaceae,Juncus,Juncus effusus
+lpLuzSylv1,lpLuzSylv1,Great wood rush,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Juncaceae,Luzula,Luzula sylvatica
 lpPhrAust1,lpPhrAust1,Common reed,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Phragmites,Phragmites australis
 lpSchLacu1,lpSchLacu1,.,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Schoenoplectus,Schoenoplectus lacustris
 lpSchTriq1,lpSchTriq1,Club-rush,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Cyperaceae,Schoenoplectus,Schoenoplectus triqueter
@@ -683,7 +694,7 @@ mGloMel1,mGloMel1,Long-finned pilot whale,Eukaryota,Metazoa,Chordata,Mammalia,Ar
 mHypAmp2,mHypAmp2,Northern bottlenose whale,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Ziphiidae,Hyperoodon,Hyperoodon ampullatus
 mLagAlb1,mLagAlb1,White-beaked dolphin,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus albirostris
 mMarMar1,mMarMar1,European pine marten,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Mustelidae,Martes,Martes martes
-mMelMel3,mMelMel3,European badger,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Mustelidae,Meles ,Meles meles
+mMelMel3,mMelMel3,European badger,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Mustelidae,Meles,Meles meles
 mMicMin1,mMicMin1,European harvest mouse,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Micromys,Micromys minutus
 mMunRee1,mMunRee1,Reeves' muntjac,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Cervidae,Muntiacus,Muntiacus reevesi
 mMusMuc1,mMusMuc1,House mouse,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Mus,Mus musculus
@@ -692,16 +703,16 @@ mPhoPho1,mPhoPho1,Harbor porpoise,Eukaryota,Metazoa,Chordata,Mammalia,Artiodacty
 mPipPyg2,mPipPyg2,Soprano pipistrelle,Eukaryota,Metazoa,Chordata,Mammalia,Chiroptera,Vespertilionidae,Pipistrellus,Pipistrellus pygmaeus
 mPleAur1,mPleAur1,Brown big-eared bat,Eukaryota,Metazoa,Chordata,Mammalia,Chiroptera,Vespertilionidae,Plecotus,Plecotus auritus
 mSteCoe1,mSteCoe1,Striped dolphin,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Delphinidae,Stenella,Stenella coeruleoalba
-paTetJugo1,paTetJugo1,.,Eukaryota,.,Heterolobosea,.,.,Vahlkampfiidae,Tetramitus,Tetramitus jugosus
+paTetJugo1,paTetJugo1,Heterolobosean amoeboflagellate,Eukaryota,.,Heterolobosea,.,.,Vahlkampfiidae,Tetramitus,Tetramitus jugosus
 pxEimPrae1,pxEimPrae1,Coccidian parasite,Eukaryota,.,Apicomplexa,Conoidasida,Eucoccidiorida,Eimeriidae,Eimeria,Eimeria praecox
 qcStrAcum1,qcStrAcum1,.,Eukaryota,Metazoa,Arthropoda,Chilopoda,Geophilomorpha,Linotaeniidae,Strigamia,Strigamia acuminata
 qhLepNord3,qhLepNord3,Sea louse,Eukaryota,Metazoa,Arthropoda,Hexanauplia,Siphonostomatoida,Caligidae,Lepeophtheirus,Lepeophtheirus nordmannii
-qqAmaFero1,qqAmaFero1,.,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Amaurobiidae,Amaurobius,Amaurobius ferox
+qqAmaFero1,qqAmaFero1,Black lace-weaver spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Amaurobiidae,Amaurobius,Amaurobius ferox
 qqArgBrue1,qqArgBrue1,Wasp spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Araneidae,Argiope,Argiope bruennichi
-qqMetBour1,qqMetBour1,.,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Tetragnathidae,Meta,Meta bourneti
-qqMetSegm1,qqMetSegm1,.,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Tetragnathidae,Metellina,Metellina segmentata
-qqOdiSpin1,qqOdiSpin1,.,Eukaryota,Metazoa,Arthropoda,Arachnida,Opiliones,Phalangiidae,Odiellus,Odiellus spinosus
-qqParLuna2,qqParLuna2,.,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Theridiidae,Parasteatoda,Parasteatoda lunata
+qqMetBour1,qqMetBour1,Cave orb-weaver,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Tetragnathidae,Meta,Meta bourneti
+qqMetSegm1,qqMetSegm1,Autumn spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Tetragnathidae,Metellina,Metellina segmentata
+qqOdiSpin1,qqOdiSpin1,Harvestman spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Opiliones,Phalangiidae,Odiellus,Odiellus spinosus
+qqParLuna2,qqParLuna2,Spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Theridiidae,Parasteatoda,Parasteatoda lunata
 qqTetMont2,qqTetMont2,Silver stretch spider,Eukaryota,Metazoa,Arthropoda,Arachnida,Araneae,Tetragnathidae,Tetragnatha,Tetragnatha montana
 qxSacCarc1,qxSacCarc1,Crab hacker barnacle,Eukaryota,Metazoa,Arthropoda,Thecostraca,.,Sacculinidae,Sacculina,Sacculina carcini
 rZooViv1,rZooViv1,Common lizard,Eukaryota,Metazoa,Chordata,Lepidosauria,Squamata,Lacertidae,Zootoca,Zootoca vivipara
@@ -722,18 +733,18 @@ wdMagJohn1,wdMagJohn1,.,Eukaryota,Metazoa,Annelida,Polychaeta,Spionida,Magelonid
 wkErpOcto2,wkErpOcto2,Leech,Eukaryota,Metazoa,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,Erpobdella octoculata
 wpAchSqua1,wpAchSqua1,Star devouring scaleworm,Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Polynoidae,Acholoe,Acholoe squamosa
 wpAleGela1,wpAleGela1,(a scale worm),Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Polynoidae,Alentia,Alentia gelatinosa
-wpAliVire1,wpAliVire1,.,Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Nereididae,Alitta,Alitta virens
+wpAliVire1,wpAliVire1,King ragworm,Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Nereididae,Alitta,Alitta virens
 wpHarImpa5,wpHarImpa5,(a scale worm),Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Polynoidae,Harmothoe,Harmothoe impar
 wpSthLimi1,wpSthLimi1,(a segmented worm),Eukaryota,Metazoa,Annelida,Polychaeta,Phyllodocida,Sigalionidae,Sthenelais,Sthenelais limicola
-wrPisGeom1,wrPisGeom1,.,Eukaryota,Metazoa,Annelida,Clitellata,Hirudinida,Piscicolidae,Piscicola,Piscicola geometra
+wrPisGeom1,wrPisGeom1,Fish leech,Eukaryota,Metazoa,Annelida,Clitellata,Hirudinida,Piscicolidae,Piscicola,Piscicola geometra
 wtTerLapi1,wtTerLapi1,(a segmented worm),Eukaryota,Metazoa,Annelida,Polychaeta,Terebellida,Terebellidae,Terebella,Terebella lapidaria
 xbArcSenh1,xbArcSenh1,Asian date mussel,Eukaryota,Metazoa,Mollusca,Bivalvia,Mytilida,Mytilidae,Arcuatula,Arcuatula senhousia
-xbAzoCham1,xbAzoCham1,.,Eukaryota,Metazoa,Mollusca,Bivalvia,Cardiida,Solecurtidae,Azorinus,Azorinus chamasolen
+xbAzoCham1,xbAzoCham1,Mollusc,Eukaryota,Metazoa,Mollusca,Bivalvia,Cardiida,Solecurtidae,Azorinus,Azorinus chamasolen
 xbCerEdul1,xbCerEdul1,Edible cockle,Eukaryota,Metazoa,Mollusca,Bivalvia,Cardiida,Cardiidae,Cerastoderma,Cerastoderma edule
 xbGarTell2,xbGarTell2,(a clam),Eukaryota,Metazoa,Mollusca,Bivalvia,Cardiida,Psammobiidae,Gari,Gari tellinella
 xbLutLutr1,xbLutLutr1,Common otter shell,Eukaryota,Metazoa,Mollusca,Bivalvia,Venerida,Mactridae,Lutraria,Lutraria lutraria
 xbMagGiga1,xbMagGiga1,Pacific oyster,Eukaryota,Metazoa,Mollusca,Bivalvia,Ostreida,Ostreidae,Magallana,Magallana gigas
-xbMimVari1,xbMimVari1,.,Eukaryota,Metazoa,Mollusca,Bivalvia,Pectinida,Pectinidae,Mimachlamys,Mimachlamys varia
+xbMimVari1,xbMimVari1,Variegated scallop,Eukaryota,Metazoa,Mollusca,Bivalvia,Pectinida,Pectinidae,Mimachlamys,Mimachlamys varia
 xbMytEdul2,xbMytEdul2,Blue mussel,Eukaryota,Metazoa,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus edulis
 xbOstEdul1,xbOstEdul1,Native oyster,Eukaryota,Metazoa,Mollusca,Bivalvia,Ostreida,Ostreidae,Ostrea,Ostrea edulis
 xbSpiSoli1,xbSpiSoli1,(a clam),Eukaryota,Metazoa,Mollusca,Bivalvia,Venerida,Mactridae,Spisula,Spisula solida
