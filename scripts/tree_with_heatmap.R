@@ -12,9 +12,9 @@ metadata <- read.csv("../data/dtol/dtol_all_samples.taxonomic_classification.csv
 somatic_signatures <- read.csv("../data/dtol/somatic_mutational_signature_attributions.x0_excluded.rtol_filtered.csv",check.names = F)
 colnames(somatic_signatures) = paste0('sToL',colnames(somatic_signatures) )
 rs = rowSums(somatic_signatures[ , -1], na.rm = TRUE) # calculate row sum
-somatic_signatures[ , -1] <- somatic_signatures[ , -1] / rs # normalise mutational signature attribution (as in plot_figure_3.R)
-somatic_signatures$sToL8_2 <- somatic_signatures$sToL8 + somatic_signatures$sToL2 # published sToL4 = current sToL8 + sToL2 (split; decision_log 2026-10-05)
-somatic_signatures[ , -1][somatic_signatures[ , -1] < 0.035] <- 0 # Set values < 0.035 to 0 (after the sum, as in plot_figure_3.R)
+somatic_signatures[ , -1] <- somatic_signatures[ , -1] / rs # normalise mutational signature attribution 
+somatic_signatures$sToL8_2 <- somatic_signatures$sToL8 + somatic_signatures$sToL2 # sum two CpG signatures = sToL8 + sToL2 
+somatic_signatures[ , -1][somatic_signatures[ , -1] < 0.035] <- 0 # Set values < 0.035 to 0 
 somatic_signatures[,1] <- ifelse(grepl("\\.", somatic_signatures[,1]),
                                  sub(".*\\.", "", somatic_signatures[,1]),
                                  somatic_signatures[,1])
@@ -61,6 +61,9 @@ tr   <- read.tree(text = txt2)
 tr$tip.label <- str_replace_all(tr$tip.label, "_", " ")
 tr$tip.label <- gsub("\\^(.*?)\\^", "(\\1)", tr$tip.label)
 org_labels =  tr$tip.label
+tr_full <- tr   # full 764-tip tree; each figure below prunes it to the samples it has data for
+# 4 artefact-dominated samples (cumulative artefact attribution 0.95-0.97) are not shown in the somatic trees
+artefact_samples <- somatic_signatures$label[somatic_signatures[,1] %in% c("gfFlaVelt1", "ihDrePlat2", "ilYpoCagn5", "ilYpoPade1")]
 
 get_expr_labels <- function(labels){
   esc <- function(s) gsub("'", "\\\\'", s, perl = TRUE)  # escape single quotes
@@ -85,6 +88,9 @@ get_expr_labels <- function(labels){
 
 # tr$tip.label = get_expr_labels(org_labels)
 # ------------------Fig3 taxa enriched signatures--------------
+# keep only samples with somatic attributions, minus the 4 artefact-dominated samples (678 tips); tips without data would otherwise be drawn white (= zero)
+tr <- keep.tip(tr_full, setdiff(intersect(tr_full$tip.label, somatic_signatures$label), artefact_samples))
+org_labels <- tr$tip.label
 pal <- c(
   Coleoptera = "#A3843F",
   Chordata = "#765FA6",
@@ -155,7 +161,7 @@ ggsave("../figs/ToL_Fig3_noheatmap.pdf", plot = p,
 
 
 
-# published sToL4/5/15/24 = sToL8+sToL2, sToL4, sToL13, sToL24 (decision_log 2026-10-05)
+# published sToL8+sToL2, sToL4, sToL13, sToL24 
 hm <- somatic_signatures %>%
   select(label, sToL8_2, sToL4, sToL13, sToL24) %>%             
   distinct(label, .keep_all = TRUE) %>% 
@@ -165,8 +171,7 @@ hm <- somatic_signatures %>%
 
 # --- add a NEW fill scale, then the heatmap ring ---
 # custom palettes for each signature
-pal_1 <- c("#F7FCF5","#E1F3DC","#BCE4B5","#8ED08B","#56B567","#2C944C","#05712F","#00441B")  # greens (manuscript)
-pal_2 <- c("#F7FBFF","#DBE9F6","#BAD6EB","#89BEDC","#539ECD","#2B7BBA","#0B559F","#08306B")  # blues
+pal_1 <- c("#F7FCF5","#E1F3DC","#BCE4B5","#8ED08B","#56B567","#2C944C","#05712F","#00441B")  # greens 
 pal_3 <- c("#FFF5EB","#FEE3C8","#FDC692","#FDA057","#F67824","#E05206","#AD3803","#7F2704")  # oranges
 pal_4 <- c("#FCFBFD","#ECEBF4","#D1D2E7","#AFAED4","#8D89C0","#705EAA","#572C92","#3F007D")  # purples
 
@@ -254,6 +259,9 @@ ggsave("~/Documents/Postdoc/ToL/figs/ToL_Fig3_heatmap_scale_bottom.pdf", plot = 
 
 
 # ------------------Fig4--------------
+# keep only samples with somatic attributions, minus the 4 X6-dominated samples (678 tips)
+tr <- keep.tip(tr_full, setdiff(intersect(tr_full$tip.label, somatic_signatures$label), x6_samples))
+org_labels <- tr$tip.label
 pal <- c(
   Actiniaria = "#32A2DB",
   Actinopteri = "#35529A",
@@ -323,7 +331,7 @@ ggsave("../figs/ToL_Fig4_noheatmap.pdf", plot = p,
 
 
 
-# published sToL9/13/18 (decision_log 2026-10-05)
+# published sToL9/13/18 
 hm <- somatic_signatures %>%
   select(label, sToL9, sToL15, sToL21) %>%             
   distinct(label, .keep_all = TRUE) %>% 
@@ -406,6 +414,9 @@ ggsave("~/Documents/Postdoc/ToL/figs/ToL_Fig4_heatmap_scale_bottom.pdf", plot = 
        width = 7, height = 7, units = "in") 
 
 # ------------------Fig5--------------
+# keep only samples with germline attributions (685 tips)
+tr <- keep.tip(tr_full, intersect(tr_full$tip.label, germline_signatures$label))
+org_labels <- tr$tip.label
 pal <- c(
   Coleoptera = "#A3843F",
   Chordata = "#765FA6",
