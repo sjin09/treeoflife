@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 library(ape)
 library(ggtree)
 library(tidyverse)
@@ -8,23 +6,50 @@ library(ggnewscale)
 library(stringr)
 library(dplyr)
 
-# CONSTANTS 
-MUTATIONAL_SIGNATURES = c("gToL1", "gToL3", "gToL4", "gToL6")
-TAXANOMIC_RANKS = c("Coleoptera", "Chordata", "Viridiplantae", "Vespidae", "Tenthredinidae")
 
-# setwd
-setwd("/Users/sl666/Manuscript/My Drive/ToL_Nature/SI/SF1-3")
+# Manuscript typography: keep all plot text in Helvetica at 5-7 pt.
+theme_set(theme(
+  text = element_text(family = "Helvetica", size = 6),
+  axis.text = element_text(family = "Helvetica", size = 5),
+  axis.title = element_text(family = "Helvetica", size = 6),
+  plot.title = element_text(family = "Helvetica", size = 7),
+  legend.text = element_text(family = "Helvetica", size = 6),
+  legend.title = element_text(family = "Helvetica", size = 7)
+))
 
-# Load data
-nwk = readLines("tree.nwk")
-metadata <- read.csv("dtol_all_samples.taxonomic_classification.csv")
-germline_signatures <- read.csv("germline_mutational_signature_attributions.x0_excluded.csv", check.names = F)
 
-# Manipulate data
+
+metadata <- read.csv("../data/dtol/dtol_all_samples.taxonomic_classification.csv")
+
+somatic_signatures <- read.csv("../data/dtol/somatic_mutational_signature_attributions.x0_excluded.rtol_filtered.csv",check.names = F)
+colnames(somatic_signatures) = paste0('sToL',colnames(somatic_signatures) )
+rs = rowSums(somatic_signatures[ , -1], na.rm = TRUE) # calculate row sum
+somatic_signatures[ , -1] <- somatic_signatures[ , -1] / rs # normalise mutational signature attribution 
+somatic_signatures$sToL8_2 <- somatic_signatures$sToL8 + somatic_signatures$sToL2 # sum two CpG signatures = sToL8 + sToL2 
+somatic_signatures[ , -1][somatic_signatures[ , -1] < 0.035] <- 0 # Set values < 0.035 to 0 
+somatic_signatures[,1] <- ifelse(grepl("\\.", somatic_signatures[,1]),
+                                 sub(".*\\.", "", somatic_signatures[,1]),
+                                 somatic_signatures[,1])
+somatic_signatures$label=NA
+somatic_signatures$label=sapply(somatic_signatures[,1], function(x){
+  Species = metadata$Species[metadata$Sample==x]
+  if (length(metadata$Species[metadata$Species==Species]) == 1){
+    label = Species
+  }
+  else{
+    label = paste0(Species," (", x, ")")
+  } 
+  label
+})
+somatic_signatures$label[somatic_signatures$label=="Hemaris fuciformis"]="Hemaris fuciformis (iHemFuc2)"
+
+
+
+germline_signatures <- read.csv("../data/dtol/germline_mutational_signature_attributions.x0_excluded.csv",check.names = F)
 colnames(germline_signatures) = paste0('gToL',colnames(germline_signatures))
 germline_signatures[,1] <- ifelse(grepl("\\.", germline_signatures[,1]),
-                                  sub(".*\\.", "", germline_signatures[,1]),
-                                  germline_signatures[,1])
+                                 sub(".*\\.", "", germline_signatures[,1]),
+                                 germline_signatures[,1])
 germline_signatures$label=NA
 germline_signatures$label=sapply(germline_signatures[,1], function(x){
   Species = metadata$Species[metadata$Sample==x]
@@ -33,40 +58,68 @@ germline_signatures$label=sapply(germline_signatures[,1], function(x){
   }
   else{
     label = paste0(Species," (", x, ")")
-  }
+  } 
   label
 })
 
-# Manipulate newick tree
-nwk <- gsub('_', '^', nwk, fixed = TRUE)
-nwk <- gsub(" +", "_", nwk)   # turn spaces inside labels into underscores
-tr   <- read.tree(text = nwk)
+germline_signatures$label[germline_signatures$label=="Hemaris fuciformis"]="Hemaris fuciformis (iHemFuc2)"
+
+
+
+txt  <- readLines("../data/dtol/dtol_all_samples.taxonomic_tree.nwk")
+txt <- gsub('_', '^', txt, fixed = TRUE)
+txt2 <- gsub(" +", "_", txt)   # turn spaces inside labels into underscores
+tr   <- read.tree(text = txt2)
 tr$tip.label <- str_replace_all(tr$tip.label, "_", " ")
 tr$tip.label <- gsub("\\^(.*?)\\^", "(\\1)", tr$tip.label)
+org_labels <- tr$tip.label
+tr_full <- tr   # full 764-tip tree; each figure below prunes it to the samples it has data for
+# 4 artefact-dominated samples (cumulative artefact attribution 0.95-0.97) are not shown in the somatic trees
+artefact_samples <- somatic_signatures$label[somatic_signatures[,1] %in% c("gfFlaVelt1", "ihDrePlat2", "ilYpoCagn5", "ilYpoPade1")]
 
-# Figure 5
+get_expr_labels <- function(labels){
+  esc <- function(s) gsub("'", "\\\\'", s, perl = TRUE)  # escape single quotes
+  
+  has_paren = grepl("\\(", labels)
+  
+  # get species name
+  species   <- sub("\\s*\\(.*$", "", labels) 
+  
+  # get sample name
+  paren     <- sub("^[^\\(]*", "", labels)
+  
+  species_e <- esc(species)
+  paren_e   <- esc(paren)
+  
+  ifelse(
+    has_paren,
+    paste0("italic('", species_e, "')~'", paren_e, "'"),  # italic species + plain "(...)"
+    paste0("italic('", species_e, "')")                   # all italic when no "(...)"
+  )
+}
+
+# tr$tip.label = get_expr_labels(org_labels)
+# Signature colour ramps sampled from the manuscript colour bars.
+manuscript_blue <- c("#F6FBFE", "#DEEAF8", "#C4DAEE", "#9DCBE1", "#6CAED6", "#4091C6", "#1772B7", "#0F539D", "#1E3768")
+manuscript_green <- c("#F6FAF3", "#E4F0DD", "#C6E0BD", "#A1CE99", "#76BD76", "#40AC5F", "#1F8D46", "#0B7032", "#0E4721")
+manuscript_purple <- c("#FBFAFC", "#EEECF3", "#D9DAEA", "#BBBDDC", "#9E9AC8", "#7F7EBB", "#6A549F", "#522F89", "#3D2774")
+manuscript_orange <- c("#FEF4E8", "#FEE5CD", "#FCCFA0", "#F7AD6B", "#F18A40", "#ED6C1B", "#DA4A13", "#A93817", "#812911")
+
+
+# ------------------Fig5--------------
+# keep only samples with germline attributions (685 tips)
+tr <- keep.tip(tr_full, intersect(tr_full$tip.label, germline_signatures$label))
+org_labels <- tr$tip.label
+# Colours sampled from the corresponding figure in main_yw.docx.
 pal <- c(
-  Coleoptera = "#A3843F",
   Chordata = "#765FA6",
-  Viridiplantae = "#408145",
-  Fungi = "#925C35"
+  Coleoptera = "#A3843F",
+  Fungi = "#925D37",
+  Viridiplantae = "#408246"
 )
 
-# Get subset of somatic mutational signature attributions
-hm <- germline_signatures %>%
-  select(label, gToL1, gToL3, gToL4, gToL6) %>%             
-  distinct(label, .keep_all = TRUE) %>% 
-  filter(label %in% tr$tip.label) %>%   
-  column_to_rownames("label")
 
-# max values
-# max(hm[,"gToL1"]) # 0.96
-# max(hm[,"gToL3"]) # 0.81
-# max(hm[,"gToL4"]) # 0.62
-# max(hm[,"gToL6"]) # 0.39
-
-# build annotation
-anno <- tibble(label = tr$tip.label) %>%
+anno <- tibble(label = org_labels) %>%
   mutate(Species = str_trim(str_replace(label, "\\s*\\(.*\\)$", "")))  # drop the (...) part
 anno$Kingdom <- sapply(anno$Species,function(x){
   unique(metadata$Kingdom[metadata$Species==x])
@@ -83,6 +136,7 @@ anno$Order <- sapply(anno$Species,function(x){
 anno$Family <- sapply(anno$Species,function(x){
   unique(metadata$Family[metadata$Species==x])
 })
+
 anno <- anno %>%
   mutate(ColorGroup = case_when(
     Kingdom %in% names(pal) ~ Kingdom,
@@ -91,172 +145,135 @@ anno <- anno %>%
     Order  %in% names(pal) ~ Order,
     Family  %in% names(pal) ~ Family,
     TRUE ~ NA_character_   # << no group = no colour
-  )) 
+  )) %>% filter(!is.na(ColorGroup)) 
 
-# build data frame for shading phylogenetic tree
+
 grp_list <- split(anno$label, anno$ColorGroup)
+
 hilight_df <- lapply(names(grp_list), function(g) {
   tips <- grp_list[[g]]
   idx  <- which(tr$tip.label %in% tips)
   if (length(idx) >= 2) {
     node_id <- ape::getMRCA(tr, idx)
-    if (!is.na(node_id)) data.frame(node = node_id, ColorGroup = g)
+    if (!is.na(node_id)) data.frame(node = node_id, HighlightGroup = g)
   }
 }) %>% bind_rows()
 
-# plot
-p <- ggtree(tr, layout = "circular", size = 0.25, color = "#090954") +
-  geom_hilight(
-    data = hilight_df,
-    aes(node = node, fill = ColorGroup),
-    alpha=1,
-  ) + 
-  scale_fill_manual(
-    values = pal, 
-    name = "Taxonomic rank", 
-    guide = guide_legend(override.aes = list(alpha = 1))
-  ) +
-  theme(
-    legend.position = "right",
-    legend.direction = "vertical",
-    text = element_text(family = "Helvetica", size = 8)
-  )
+p <- ggtree(tr, layout = "circular", size = 0.10,color = "#090954") %<+% anno +
+  geom_hilight(data = hilight_df,
+               aes(node = node, fill = HighlightGroup),
+               alpha = 0.8) +
+  # geom_tree(colour = "grey60", linewidth = 0.10) +
+  # geom_tiplab(aes(label = label),
+  #             offset = 0.3,
+  #             fontface = "italic",
+  #             family = "Helvetica",
+  #             size = 1) +
+  scale_fill_manual(values = pal, breaks = names(pal), name = "Taxonomic rank",
+                    guide = guide_legend(position = "right", order = 5, override.aes = list(alpha = 1), theme = theme(legend.text = element_text(family = "Helvetica", size = 6), legend.title = element_text(family = "Helvetica", size = 7)))) #+
+# theme(legend.position = "right",
+#       text = element_text(family = "Helvetica"))
 
-# return
-ggsave("Figure_5_alpha.pdf", plot = p, width = 7.48, height = 7.48, units = "in")
+p
 
-# define gradient of colours
-pal_1 <- c("#F7FCF5","#E1F3DC","#BCE4B5","#8ED08B","#56B567","#2C944C","#05712F","#00441B")
-pal_2 <- c("#F7FBFF","#DBE9F6","#BAD6EB","#89BEDC","#539ECD","#2B7BBA","#0B559F","#08306B")
-pal_3 <- c("#FFF5EB","#FEE3C8","#FDC692","#FDA057","#F67824","#E05206","#AD3803","#7F2704")
-pal_4 <- c("#FCFBFD","#ECEBF4","#D1D2E7","#AFAED4","#8D89C0","#705EAA","#572C92","#3F007D")
+# ggsave("~/Documents/Postdoc/ToL/figs/ToL_Fig5_noheatmap.pdf", plot = p,
+#        width = 7.48, height = 7.48, units = "in") 
+
+
+
+hm <- germline_signatures %>%
+  select(label, gToL1, gToL3, gToL4, gToL6) %>%             
+  distinct(label, .keep_all = TRUE) %>% 
+  filter(label %in% org_labels) %>%   
+  column_to_rownames("label")
+
+
+# --- add a NEW fill scale, then the heatmap ring ---
+# custom palettes for each signature
+pal_1 <- manuscript_green
+pal_2 <- manuscript_blue
+pal_3 <- manuscript_orange
+pal_4 <- manuscript_purple
 
 # layout parameters
-tile_offset <- 0.02
-tile_width  <- 0.02
+base_offset <- 0.02
+band_width  <- 0.02
 gap         <- 0.2
 
-# define grid colour
 grid_col  <- "grey70" 
 
-## add gToL1 mutational signature
-p <- p + guides(fill = "none", colour = "none")
+
+p <- p + guides(colour = "none")
 p1 <- p + new_scale_fill()
-p1 <- gheatmap(p1,
-               hm[,"gToL1", drop = F],
-               offset = tile_offset,
-               width  = tile_width,
-               colnames = F,
-               colnames_angle = 90,
-               colnames_offset_y = 0.5,
-               font.size = 8,
-               color = grid_col
-               ) +
-  scale_fill_gradientn(
-    colours = pal_3,
-    name = "gToL1", 
-    na.value = "white",
-    limits  = c(0, 1.0),
-    breaks  = c(0, 0.2, 0.4, 0.6, 0.8, 1.0),
-    labels  = c("0", "0.2", "0.4", "0.6", "0.8", "1.0"),
-    guide = guide_colorbar(
-      direction = "horizontal", 
-      title.position = "top",
-      barheight = unit(3, "pt"),
-      barwidth = unit(60, "pt"),
-      order = 1)
-  )
-
-## add gToL3 mutational signature
-p2 <- p1 + new_scale_fill()
-p2 <- gheatmap(p2,
-               hm[,"gToL3", drop = F],
-               offset = tile_offset + tile_width + gap,
-               width  = tile_width,
-               colnames = F,
-               colnames_angle = 90,
-               colnames_offset_y = 0.5,
-               font.size = 2,
-               color = grid_col
-               ) +
-  scale_fill_gradientn(
-    colours = pal_2,
-    name = "gToL3",
-    na.value = "white",
-    limits  = c(0, 0.9),
-    breaks  = c(0, 0.2, 0.4, 0.6, 0.8, 0.9),
-    labels  = c("0", "0.2", "0.4", "0.6", "0.8", "0.9"),
-    guide = guide_colorbar(
-      direction = "horizontal",
-      title.position = "top",
-      barheight = unit(3, "pt"),
-      barwidth = unit(60, "pt"),
-      order = 2)
-    )
-# p2
-
-## add gToL4 mutational signature
-p3 <- p2 + ggnewscale::new_scale_fill()
-p3 <- gheatmap(p3,
-               hm["gToL4"],
-               offset = tile_offset + 2*(tile_width + gap),
-               width  = tile_width,
-               colnames = F,
-               colnames_angle = 90,
-               colnames_offset_y = 0.5,
-               font.size = 2,
-               color = grid_col
-               ) +
-  scale_fill_gradientn(
-    colours = pal_1,
-    name = "gToL4", 
-    na.value = "white",
-    limits  = c(0, 0.7),
-    breaks  = c(0, 0.2, 0.4, 0.6, 0.7),
-    labels  = c("0", "0.2", "0.4", "0.6", "0.7"),
-    guide = guide_colorbar(
-      direction = "horizontal",
-      title.position = "top",
-      barheight = unit(3, "pt"),
-      barwidth = unit(60, "pt"),
-      order = 3)
-    )
-
-## add gToL6 mutational signature
-p4 <- p3 + ggnewscale::new_scale_fill()
-p4 <- gheatmap(p4,
-               hm["gToL6"],
-               offset = tile_offset + 3.03*(tile_width + gap),
-               width  = tile_offset,
+p1 <- gheatmap(p1, hm[,"gToL1", drop = F],
+               offset = base_offset,
+               width  = band_width,
                colnames = F, colnames_angle = 90,
-               colnames_offset_y = 0.5, font.size = 2,
-               color = grid_col
-               ) +
-  scale_fill_gradientn(
-    colours = pal_4,
-    name = "gToL6",
-    na.value = "white",
-    limits  = c(0, 0.4),
-    breaks  = c(0, 0.1, 0.2, 0.3, 0.4),
-    labels  = c("0", "0.1", "0.2", "0.3", "0.4"),
-    guide = guide_colorbar(
-      direction = "horizontal",
-      title.position = "top",
-      barheight = unit(3, "pt"),
-      barwidth = unit(60, "pt"),
-      order = 4)
-    )
+               colnames_offset_y = 0.5, font.size = 5,
+               color = grid_col) +
+  scale_fill_gradientn(colours = pal_3, name = "gToL1",na.value = "white",
+                       limits  = c(0, 1.0),
+                       breaks  = c(0, 0.2, 0.4, 0.6, 0.8, 1.0),
+                       labels  = c("0", "0.2", "0.4", "0.6", "0.8", "1.0"),
+                       guide = guide_colorbar(direction = "horizontal", title.position = "top",
+                                              barheight = unit(3, "pt"), barwidth = unit(60, "pt"),
+                                              order = 1))
+p1
 
-# add legend
-p4 <- p4 + 
-  theme(
-    legend.position = "right", 
-    legend.box = "vertical", 
-    legend.text = element_text(size = 6)
-  )
+p2 <- p1 + new_scale_fill()
+p2 <- gheatmap(p2, hm[,"gToL3", drop = F],
+               offset = base_offset + band_width + gap,
+               width  = band_width,
+               colnames = F, colnames_angle = 90,
+               colnames_offset_y = 0.5, font.size = 5,
+               color = grid_col) +
+  scale_fill_gradientn(colours = pal_2, name = "gToL3",na.value = "white",
+                       limits  = c(0, 0.9),
+                       breaks  = c(0, 0.2, 0.4, 0.6, 0.8, 0.9),
+                       labels  = c("0", "0.2", "0.4", "0.6", "0.8", "0.9"),
+                       guide = guide_colorbar(direction = "horizontal", title.position = "top",
+                                              barheight = unit(3, "pt"), barwidth = unit(60, "pt"),
+                                              order = 2))
+p2
 
-# return plot
-ggsave("Figure_5_beta.pdf", plot = p4, width = 7.48, height = 7.48, units = "in")
+p3 <- p2 + ggnewscale::new_scale_fill()
+p3 <- gheatmap(p3, hm[, "gToL4", drop = FALSE],
+               offset = base_offset + 2*(band_width + gap),
+               width  = band_width,
+               colnames = F, colnames_angle = 90,
+               colnames_offset_y = 0.5, font.size = 5,
+               color = grid_col) +
+  scale_fill_gradientn(colours = pal_1, name = "gToL4",na.value = "white",
+                       limits  = c(0, 0.7),
+                       breaks  = c(0, 0.2, 0.4, 0.6, 0.7),
+                       labels  = c("0", "0.2", "0.4", "0.6", "0.7"),
+                       guide = guide_colorbar(direction = "horizontal", title.position = "top",
+                                              barheight = unit(3, "pt"), barwidth = unit(60, "pt"),
+                                              order = 3))
+p3
 
+p4 <- p3 + ggnewscale::new_scale_fill()
+p4 <- gheatmap(p4, hm[, "gToL6", drop = FALSE],
+               offset = base_offset + 3*(band_width + gap),
+               width  = band_width,
+               colnames = F, colnames_angle = 90,
+               colnames_offset_y = 0.5, font.size = 5,
+               color = grid_col) +
+  scale_fill_gradientn(colours = pal_4, name = "gToL6",na.value = "white",
+                       limits  = c(0, 0.4),
+                       breaks  = c(0, 0.1, 0.2, 0.3, 0.4),
+                       labels  = c("0", "0.1", "0.2", "0.3", "0.4"),
+                       guide = guide_colorbar(direction = "horizontal", title.position = "top",
+                                              barheight = unit(3, "pt"), barwidth = unit(60, "pt"),
+                                              order = 4))
+p4
+p4 <- p4 + theme(legend.text = element_text(family = "Helvetica", size = 6)) # as plot_figure_5.R
+ggsave("~/Documents/Postdoc/ToL/figs/ToL_Fig5_heatmap_scale_right.pdf", plot = p4,
+       width = 7.48, height = 7.48, units = "in") 
 
+p4 <- p4+theme(legend.position = "bottom", legend.box = "horizontal",legend.text = element_text(family = "Helvetica", size = 6))
+p4
+
+ggsave("~/Documents/Postdoc/ToL/figs/ToL_Fig5_heatmap_scale_bottom.pdf", plot = p4,
+       width = 7.48, height = 7.48, units = "in")
 

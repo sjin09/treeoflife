@@ -8,18 +8,20 @@ hdp_input_path<-commandArgs(T)[2]
 output_path<-commandArgs(T)[3]
 prefix<-commandArgs(T)[4]
 #------------extract HDP results---------
-chlist <- vector("list", 10)
-for (i in 1:10){
+chlist <- vector("list", 20)
+for (i in 1:20){
   chlist[[i]] <- readRDS(paste0(chlist_file,i,".rds"))
 }
 
 
 mut_example_multi <- hdp_multi_chain(chlist)
 
-# lapply(chains(mut_example_multi), plot_lik, bty="L", start = 1000)
-# lapply(chains(mut_example_multi), plot_numcluster, bty="L")
-# lapply(chains(mut_example_multi), plot_data_assigned, bty="L")
-
+pdf(paste0(output_path, "/",prefix,"_diagnostic_plots.pdf"), width = 7, height = 7)
+par(mfrow = c(2, 2))
+lapply(chains(mut_example_multi), plot_lik, bty="L", start = 1000)
+lapply(chains(mut_example_multi), plot_numcluster, bty="L")
+lapply(chains(mut_example_multi), plot_data_assigned, bty="L")
+dev.off()
 mut_example_multi <- hdp_extract_components(mut_example_multi)
 plot_comp_size(mut_example_multi, bty="L")
 

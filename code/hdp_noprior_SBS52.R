@@ -6,12 +6,12 @@ out <-as.character(commandArgs(T)[3])
 
 library(hdp)
 print(paste0(out,iter,".rds"))
-input_for_hdp<-read.table(mut_file)
+input_for_hdp<-read.table(mut_file,check.names = F)
+# raw_counts<-read.table("~/Documents/FARM/ToL/HDP/Germline_Raw/dtol_raw_germline_mutation_counts.txt",check.names = F)
+# input_for_hdp <- input_for_hdp[apply(raw_counts,1,sum)>=1000,]
+# write.table(input_for_hdp,"~/Documents/FARM/ToL/HDP/Germline_Normalized/dtol_normalised_germline_mutation_counts.1000.txt",quote = F,sep='\t')
 
 input_for_hdp_sum <- apply(input_for_hdp,1,sum)
-input_for_hdp <- input_for_hdp[apply(input_for_hdp,1,sum)>0,]
-input_for_hdp_sum <- apply(input_for_hdp,1,sum)
-
 median_muts = 3000
 input_for_hdp = round(median_muts*input_for_hdp/input_for_hdp_sum)
 
@@ -33,7 +33,7 @@ hdp_mut <- hdp_setdata(hdp_mut,
 hdp_activated <- dp_activate(hdp_mut, 1:numdp(hdp_mut), initcc=10, seed=iter*200)
 
 chlist <- hdp_posterior(hdp_activated,
-                        burnin=20000,
+                        burnin=50000,
 			n=100,
 			space=1000,
 			cpiter=3,

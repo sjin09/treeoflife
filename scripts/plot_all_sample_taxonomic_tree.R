@@ -68,21 +68,23 @@ hilight_df <- lapply(names(king_groups), function(k) {
   NULL
 }) %>% bind_rows()
 
-p <- ggtree(tr, layout = "circular",size=0.25)
+p <- ggtree(tr, layout = "circular",size=0.10)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = Kingdom),
                       alpha = 1) +
   scale_fill_manual(values = pal, name = "Kingdom", guide = guide_legend(override.aes = list(alpha = 1))) +
-  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
+  geom_tree(linewidth = 0.10) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
   theme(legend.position = "right",
-        text = element_text(family = "Helvetica"))
+        text = element_text(family = "Helvetica", size = 6),
+        legend.text = element_text(family = "Helvetica", size = 6),
+        legend.title = element_text(family = "Helvetica", size = 7))
 
 p
 
 # ggsave("~/Documents/Postdoc/ToL/figs/SF1.pdf", plot = p,
-#        width = 10, height = 10, units = "in") 
+#        width = 7.48, height = 7.48, units = "in") 
 
 
 
@@ -136,21 +138,23 @@ hilight_df <- lapply(names(grp_list), function(k) {
   NULL
 }) %>% bind_rows()
 
-p <- ggtree(tr, layout = "circular",size=0.25)
+p <- ggtree(tr, layout = "circular",size=0.10)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = ColorGroup),
                       alpha = 1) +
   scale_fill_manual(values = pal, name = "Phylum", guide = guide_legend(override.aes = list(alpha = 1))) +
-  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
+  geom_tree(linewidth = 0.10) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
   theme(legend.position = "right",
-        text = element_text(family = "Helvetica"))
+        text = element_text(family = "Helvetica", size = 6),
+        legend.text = element_text(family = "Helvetica", size = 6),
+        legend.title = element_text(family = "Helvetica", size = 7))
 
 p
 
 # ggsave("~/Documents/Postdoc/ToL/figs/SF2.pdf", plot = p,
-       # width = 10, height = 10, units = "in") 
+       # width = 7.48, height = 7.48, units = "in") 
 
 
 # ----------------By Class-------------------
@@ -237,7 +241,7 @@ hilight_df <- lapply(names(grp_list), function(k) {
 
 hilight_df$ColorGroup =factor(hilight_df$ColorGroup, levels = names(pal))  # enforce order
 
-p <- ggtree(tr, layout = "circular",size=0.25)
+p <- ggtree(tr, layout = "circular",size=0.10)
 p <- p + geom_hilight(data = hilight_df,
                       aes(node = node, fill = ColorGroup),
                       alpha = 1, show.legend = TRUE) +
@@ -245,16 +249,16 @@ p <- p + geom_hilight(data = hilight_df,
                     name = NULL, labels = legend_labels,
                     guide = guide_legend(ncol = 5, byrow = TRUE,
                                          override.aes = list(alpha = 1))) +
-  geom_tree(linewidth = 0.25) +  # redraw branches above the opaque shading
+  geom_tree(linewidth = 0.10) +  # redraw branches above the opaque shading
   geom_tiplab(aes(label = label),
               parse = T, family = "Helvetica", size = 0.85) +
   theme(legend.position = "bottom",
-        legend.text = element_text(size = 8),
         legend.key.size = grid::unit(0.4, "cm"),
-        text = element_text(family = "Helvetica"))
+        text = element_text(family = "Helvetica", size = 6),
+        legend.text = element_text(family = "Helvetica", size = 6),
+        legend.title = element_text(family = "Helvetica", size = 7))
 
 p
 
 ggsave("~/Documents/Postdoc/ToL/figs/Fig1b.pdf", plot = p,
-       width = 10, height = 10, units = "in") 
- 
+       width = 7.48, height = 7.48, units = "in") 
