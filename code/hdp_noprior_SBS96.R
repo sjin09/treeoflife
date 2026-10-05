@@ -6,13 +6,13 @@ out <-as.character(commandArgs(T)[3])
 
 library(hdp)
 print(paste0(out,iter,".rds"))
-input_for_hdp<-read.table(mut_file,check.names = F)
-# raw_counts<-read.table("~/Documents/FARM/ToL/HDP/Somatic_R1/dtol_raw_somatic_mutation_counts.txt",check.names = F)
-# input_for_hdp <- input_for_hdp[apply(raw_counts,1,sum)>=100,]
-# write.table(input_for_hdp,"~/Documents/FARM/ToL/HDP/Somatic_R1/dtol_raw_somatic_mutation_counts.100.txt",quote = F,sep='\t')
-
+input_for_hdp<-read.table(mut_file, header=TRUE, row.names=1, sep="\t", check.names=FALSE)
 input_for_hdp_sum <- apply(input_for_hdp,1,sum)
-median_muts = median(input_for_hdp_sum)
+
+input_for_hdp=input_for_hdp[input_for_hdp_sum>=100,]
+input_for_hdp_sum <- apply(input_for_hdp,1,sum)
+
+median_muts = median(input_for_hdp_sum[input_for_hdp_sum>=100])
 input_for_hdp = round(median_muts*input_for_hdp/input_for_hdp_sum)
 
 
@@ -35,7 +35,7 @@ hdp_mut <- hdp_setdata(hdp_mut,
 hdp_activated <- dp_activate(hdp_mut, 1:numdp(hdp_mut), initcc=10, seed=iter*200)
 
 chlist <- hdp_posterior(hdp_activated,
-      burnin=50000,
+                        burnin=50000,
 			n=100,
 			space=1000,
 			cpiter=3,
