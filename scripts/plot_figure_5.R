@@ -25,7 +25,6 @@ somatic_signatures <- read.csv("../data/dtol/somatic_mutational_signature_attrib
 colnames(somatic_signatures) = paste0('sToL',colnames(somatic_signatures) )
 rs = rowSums(somatic_signatures[ , -1], na.rm = TRUE) # calculate row sum
 somatic_signatures[ , -1] <- somatic_signatures[ , -1] / rs # normalise mutational signature attribution 
-somatic_signatures$sToL8_2 <- somatic_signatures$sToL8 + somatic_signatures$sToL2 # sum two CpG signatures = sToL8 + sToL2 
 somatic_signatures[ , -1][somatic_signatures[ , -1] < 0.035] <- 0 # Set values < 0.035 to 0 
 somatic_signatures[,1] <- ifelse(grepl("\\.", somatic_signatures[,1]),
                                  sub(".*\\.", "", somatic_signatures[,1]),

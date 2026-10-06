@@ -25,7 +25,6 @@ somatic_signatures <- read.csv("../data/dtol/somatic_mutational_signature_attrib
 colnames(somatic_signatures) = paste0('sToL',colnames(somatic_signatures) )
 rs = rowSums(somatic_signatures[ , -1], na.rm = TRUE) # calculate row sum
 somatic_signatures[ , -1] <- somatic_signatures[ , -1] / rs # normalise mutational signature attribution 
-somatic_signatures$sToL8_2 <- somatic_signatures$sToL8 + somatic_signatures$sToL2 # sum two CpG signatures = sToL8 + sToL2 
 somatic_signatures[ , -1][somatic_signatures[ , -1] < 0.035] <- 0 # Set values < 0.035 to 0 
 somatic_signatures[,1] <- ifelse(grepl("\\.", somatic_signatures[,1]),
                                  sub(".*\\.", "", somatic_signatures[,1]),
@@ -175,7 +174,7 @@ p
 
 
 hm <- somatic_signatures %>%
-  select(label, sToL8, sToL10, sToL41) %>%
+  select(label, sToL6, sToL7, sToL55) %>%
   distinct(label, .keep_all = TRUE) %>%
   filter(label %in% org_labels) %>%
   column_to_rownames("label")
@@ -198,13 +197,13 @@ grid_col  <- "grey70"
 
 p <- p + guides(colour = "none")
 p1 <- p + new_scale_fill()
-p1 <- gheatmap(p1, hm[,"sToL8", drop = F],
+p1 <- gheatmap(p1, hm[,"sToL6", drop = F],
                offset = base_offset,
                width  = band_width,
                colnames = F, colnames_angle = 90,
                colnames_offset_y = 0.5, font.size = 5,
                color = grid_col) +
-  scale_fill_gradientn(colours = pal_8, name = "sToL8",na.value = "white",
+  scale_fill_gradientn(colours = pal_8, name = "sToL6",na.value = "white",
                        limits  = c(0, 0.7),
                        breaks  = c(0, 0.2, 0.4, 0.6),
                        labels  = c("0", "0.2", "0.4", "0.6"),
@@ -214,13 +213,13 @@ p1 <- gheatmap(p1, hm[,"sToL8", drop = F],
 p1
 
 p2 <- p1 + new_scale_fill()
-p2 <- gheatmap(p2, hm[,"sToL10", drop = F],
+p2 <- gheatmap(p2, hm[,"sToL7", drop = F],
                offset = base_offset + band_width + gap,
                width  = band_width,
                colnames = F, colnames_angle = 90,
                colnames_offset_y = 0.5, font.size = 5,
                color = grid_col) +
-  scale_fill_gradientn(colours = pal_10, name = "sToL10",na.value = "white",
+  scale_fill_gradientn(colours = pal_10, name = "sToL7",na.value = "white",
                        limits  = c(0, 0.45),
                        breaks  = c(0, 0.1, 0.2, 0.3, 0.4),
                        labels  = c("0", "0.1", "0.2", "0.3", "0.4"),
@@ -230,13 +229,13 @@ p2 <- gheatmap(p2, hm[,"sToL10", drop = F],
 p2
 
 p3 <- p2 + ggnewscale::new_scale_fill()
-p3 <- gheatmap(p3, hm[, "sToL41", drop = FALSE],
+p3 <- gheatmap(p3, hm[, "sToL55", drop = FALSE],
                offset = base_offset + 2*(band_width + gap),
                width  = band_width,
                colnames = F, colnames_angle = 90,
                colnames_offset_y = 0.5, font.size = 5,
                color = grid_col) +
-  scale_fill_gradientn(colours = pal_41, name = "sToL41",na.value = "white",
+  scale_fill_gradientn(colours = pal_41, name = "sToL55",na.value = "white",
                        limits  = c(0, 0.4),
                        breaks  = c(0, 0.1, 0.2, 0.3),
                        labels  = c("0", "0.1", "0.2", "0.3"),
